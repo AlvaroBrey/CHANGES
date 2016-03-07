@@ -1,0 +1,49 @@
+===================================
+Since mié mar  2 21:19:42 UTC 2016
+===================================
+
+
+   * device/tcl/q39/
+8bc808a Fix a typo in setup-makefiles.sh
+38a180a Revert "Clean up proprietary files a bit"
+3225844 Fix double tap to wake
+f057f80 Add some more headset buttons
+7b9e3d2 Fix (some) headset buttons
+
+   * vendor/tcl/
+b91ae14 Revert some changes to fix video
+
+===================================
+Since jue feb 25 16:30:00 UTC 2016
+===================================
+
+
+   * device/tcl/q39/
+ffc84b1 Cleanup keylayouts
+68c7efd Fix a couple of typos regarding thermal
+a972e39 Clean up proprietary files a bit
+8ca82d9 Move thermal config to device
+1754414 Enable OTA updates. Forks/cherry pick beware
+6a5e7cb Cleanup: get rid of useless etc folder
+32bee45 Fix device name and vendor in extract-files.sh
+
+   * external/bluetooth/bluedroid/
+412741c bnep_utils: remove correct duplicate else statement
+
+   * frameworks/base/
+56eaddf SharedStorageAgent: fix off by 1
+69da9d9 Fonts: add sans-serif fallback fonts first
+
+   * frameworks/opt/telephony/
+5ecd860 telephony: Fix build on bad cherry-pick resolution.
+5736ddb [PATCH] (PICCOLO-4847) [PATCH] Force data attach when data is re  enabled after carrier-detatch.
+
+   * hardware/qcom/audio-caf/msm8916/
+f6620b6 audio: msm8916: Squashed audio amp commits
+
+   * vendor/tcl/
+e68f3f3 Get thermal conf out of vendor for real
+bb4ea55 Fix an error in qcom blobs syntax
+7e6da39 Clean up proprietary files a bit
+a14f58e Move thermal config to device
+
