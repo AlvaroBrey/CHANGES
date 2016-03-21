@@ -1,0 +1,132 @@
+===================================
+Since lun mar  7 16:36:30 UTC 2016
+===================================
+
+
+   * android/
+0749a80 default.xml: android-5.1.1_r34 -> android-5.1.1_r35
+
+   * build/
+5c81333 Merge tag 'android-5.1.1_r35' into HEAD
+
+   * device/tcl/q39/
+fcd599a Set device name/model, properly
+12b1324 Add fingerprint
+50e5bb6 Update headset button codes (thanks kanatoly)
+
+   * external/libvpx/
+1181884 Merge tag 'android-5.1.1_r35' into HEAD
+
+   * frameworks/av/
+b053bad SoftVPXEncoder: don't skip the last input buffer with eos flag.
+64afa0f Merge tag 'android-5.1.1_r35' into HEAD
+
+   * frameworks/base/
+bec4158 Support for country specific ECC numbers in the framework
+7215c2e fix metrics density comparisons
+fda88fd SysUI: Fix hiding sensitive notification behavior
+fb22fe5 SysUI: Fix hiding per-app sensitive notifications
+
+   * frameworks/native/
+e87dfa2 Merge tag 'android-5.1.1_r35' into HEAD
+
+   * frameworks/opt/hardware/
+94ddbc9 cmhw: Add isSelfManaged for SRE module
+928af15 hardware: Add UniqueDeviceId support
+
+   * frameworks/opt/telephony/
+4c6e6d7 Merge tag 'android-5.1.1_r35' into HEAD
+
+   * hardware/cyanogen/
+4f5359c cmhw: UniqueDeviceId: don't generate hardware IDs from SD card CIDs
+f2df045 cmhw: Add UniqueDeviceId implementation
+
+   * packages/apps/Bluetooth/
+73fbfbe Merge tag 'android-5.1.1_r35' into HEAD
+
+   * packages/apps/Contacts/
+020d6f5 Exporting contacts Max limit
+
+   * packages/apps/Dialer/
+c7c7884 Delete failed CallRecording file
+
+   * packages/apps/Mms/
+cc2c382 Mms: Add support for custom sms notification tone
+73026f0 Mms: add ability to remove smart dialer feature
+
+   * packages/apps/Settings/
+e92f024 Settings: Update contributors cloud DB
+a62d9a2 Settings: disable Cast Screen from QuickSettings
+9c5c399 Settings: Modify RU translation for Ambient display
+cf4fa0c Settings: Allow disabling default allcaps state in tabtext.
+
+   * prebuilts/cmsdk/
+38b2af7 update system api
+
+   * system/core/
+ac5f7fc liblog: build log_event_write regardless of TARGET_USES_LOGD
+
+   * vendor/cm/
+829a9bf cmsdk: bump internal platform revision
+d9f8980 Resolve Orange RO authtype
+0a892a2 Modify APN for Orange Romania
+
+   * vendor/cmsdk/
+268d115 cmsdk: Fix hardware service interfaces.
+49a1ddc cmsdk: Add CMHW method to check if SRE is self managed
+af62603 cmsdk: cmhw: Add UniqueDeviceId support
+a9f933a cmsdk: add invalid input checking for persistent storage APIs
+ba42c2c cmsdk: change persistent storage test cases to void return type
+
+===================================
+Since mié mar  2 21:19:42 UTC 2016
+===================================
+
+
+   * device/tcl/q39/
+8bc808a Fix a typo in setup-makefiles.sh
+38a180a Revert "Clean up proprietary files a bit"
+3225844 Fix double tap to wake
+f057f80 Add some more headset buttons
+7b9e3d2 Fix (some) headset buttons
+
+   * hardware/qcom/fm/
+13c72eb fmapp2: Add support for long press and short press from headset
+
+   * vendor/tcl/
+b91ae14 Revert some changes to fix video
+
+===================================
+Since jue feb 25 16:30:00 UTC 2016
+===================================
+
+
+   * device/tcl/q39/
+ffc84b1 Cleanup keylayouts
+68c7efd Fix a couple of typos regarding thermal
+a972e39 Clean up proprietary files a bit
+8ca82d9 Move thermal config to device
+1754414 Enable OTA updates. Forks/cherry pick beware
+6a5e7cb Cleanup: get rid of useless etc folder
+32bee45 Fix device name and vendor in extract-files.sh
+
+   * external/bluetooth/bluedroid/
+412741c bnep_utils: remove correct duplicate else statement
+
+   * frameworks/base/
+56eaddf SharedStorageAgent: fix off by 1
+69da9d9 Fonts: add sans-serif fallback fonts first
+
+   * frameworks/opt/telephony/
+5ecd860 telephony: Fix build on bad cherry-pick resolution.
+5736ddb [PATCH] (PICCOLO-4847) [PATCH] Force data attach when data is re  enabled after carrier-detatch.
+
+   * hardware/qcom/audio-caf/msm8916/
+f6620b6 audio: msm8916: Squashed audio amp commits
+
+   * vendor/tcl/
+e68f3f3 Get thermal conf out of vendor for real
+bb4ea55 Fix an error in qcom blobs syntax
+7e6da39 Clean up proprietary files a bit
+a14f58e Move thermal config to device
+
