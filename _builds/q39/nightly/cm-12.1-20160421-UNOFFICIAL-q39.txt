@@ -1,0 +1,469 @@
+===================================
+Since vie abr  1 14:10:08 UTC 2016
+===================================
+
+
+   * android/
+06c645b default.xml: android-5.1.1_r35 -> android-5.1.1_r37
+
+   * bootable/recovery/
+ba79097 Merge tag 'android-5.1.1_r37' into HEAD
+
+   * build/
+07d53f6 Merge tag 'android-5.1.1_r37' into HEAD
+
+   * device/tcl/q39/
+c38ad76 overlay: Increase min brightness to try to fix flickering issue
+
+   * external/bluetooth/bluedroid/
+4fb9b1f Merge tag 'android-5.1.1_r37' into HEAD
+
+   * external/bouncycastle/
+2402e26 Merge tag 'android-5.1.1_r37' into HEAD
+
+   * external/dhcpcd/
+38a40fc Merge tag 'android-5.1.1_r37' into HEAD
+
+   * external/skia/
+1d0d11c Adding missing definitions after the merge of android-5.1.1_r37
+cc4d9ac Merge tag 'android-5.1.1_r37' into HEAD
+
+   * external/sonivox/
+d014061 Merge tag 'android-5.1.1_r37' into HEAD
+
+   * frameworks/av/
+f631183 Merge tag 'android-5.1.1_r37' into HEAD
+
+   * frameworks/base/
+1b15ee0 Automatic translation import
+a4848ad Merge tag 'android-5.1.1_r37' into HEAD
+
+   * frameworks/minikin/
+4eb3880 Merge tag 'android-5.1.1_r37' into HEAD
+
+   * frameworks/native/
+18f7573 Merge tag 'android-5.1.1_r37' into HEAD
+
+   * hardware/qcom/fm/
+f3482c5 Automatic translation import
+
+   * libcore/
+cc2005b Merge tag 'android-5.1.1_r37' into HEAD
+
+   * packages/apps/AudioFX/
+550c8ec Automatic translation import
+
+   * packages/apps/BasicSmsReceiver/
+cc11535 Automatic translation import
+
+   * packages/apps/Bluetooth/
+4dab6b0 Automatic translation import
+
+   * packages/apps/BluetoothExt/
+fe92978 Automatic translation import
+
+   * packages/apps/Browser/
+c09937c Automatic translation import
+
+   * packages/apps/CMBugReport/
+421823b Automatic translation import
+
+   * packages/apps/CMFileManager/
+e2e4ecd Automatic translation import
+
+   * packages/apps/CMUpdater/
+047f05a Automatic translation import
+
+   * packages/apps/CMWallpapers/
+d880d7d Automatic translation import
+
+   * packages/apps/Calculator/
+6b64dba Automatic translation import
+
+   * packages/apps/Calendar/
+957e6f4 Automatic translation import
+
+   * packages/apps/Camera2/
+07db364 Automatic translation import
+
+   * packages/apps/CellBroadcastReceiver/
+5974a41 Automatic translation import
+
+   * packages/apps/CertInstaller/
+c2680c6 Automatic translation import
+10d60df Merge tag 'android-5.1.1_r37' into HEAD
+
+   * packages/apps/Contacts/
+8af9a26 Automatic translation import
+
+   * packages/apps/ContactsCommon/
+190d167 Automatic translation import
+
+   * packages/apps/DeskClock/
+34c836e Automatic translation import
+
+   * packages/apps/Dialer/
+ee3940b Automatic translation import
+
+   * packages/apps/Eleven/
+e482b91 Automatic translation import
+
+   * packages/apps/Email/
+8ace4a1 Automatic translation import
+
+   * packages/apps/Exchange/
+8bc1484 Automatic translation import
+5feeffd Merge tag 'android-5.1.1_r37' into HEAD
+
+   * packages/apps/Gallery2/
+4260f3f Automatic translation import
+
+   * packages/apps/HTMLViewer/
+b40e5e2 Automatic translation import
+
+   * packages/apps/InCallUI/
+bfb4d5a Automatic translation import
+
+   * packages/apps/KeyChain/
+50ba4ae Automatic translation import
+
+   * packages/apps/LockClock/
+1380cea Automatic translation import
+
+   * packages/apps/Mms/
+5e69d31 Automatic translation import
+
+   * packages/apps/Nfc/
+ac83b52 Automatic translation import
+
+   * packages/apps/PackageInstaller/
+c2c9149 Automatic translation import
+
+   * packages/apps/PhoneCommon/
+2272ddc Automatic translation import
+
+   * packages/apps/Profiles/
+a657d7d Automatic translation import
+
+   * packages/apps/Settings/
+db9b283 Automatic translation import
+
+   * packages/apps/SetupWizard/
+a12e803 Automatic translation import
+
+   * packages/apps/SoundRecorder/
+62a9fc9 Automatic translation import
+
+   * packages/apps/Stk/
+570d89c Automatic translation import
+
+   * packages/apps/Tag/
+c835d19 Automatic translation import
+
+   * packages/apps/Terminal/
+e7270e5 Automatic translation import
+
+   * packages/apps/ThemeChooser/
+03384f7 Automatic translation import
+
+   * packages/apps/Trebuchet/
+29e1f86 Automatic translation import
+
+   * packages/apps/TvSettings/
+b0fd2ac Automatic translation import
+
+   * packages/apps/UnifiedEmail/
+ec36cc8 Automatic translation import
+83a7226 Merge tag 'android-5.1.1_r37' into HEAD
+
+   * packages/inputmethods/LatinIME/
+317cf31 Automatic translation import
+
+   * packages/providers/CalendarProvider/
+3cecbe2 Automatic translation import
+
+   * packages/providers/ContactsProvider/
+8157b96 Automatic translation import
+
+   * packages/providers/DownloadProvider/
+77d9eca Automatic translation import
+9387398 Merge tag 'android-5.1.1_r37' into HEAD
+
+   * packages/providers/MediaProvider/
+9e61fcc Automatic translation import
+
+   * packages/providers/TelephonyProvider/
+c003651 Automatic translation import
+
+   * packages/providers/ThemesProvider/
+1c3f656 Automatic translation import
+
+   * packages/providers/UserDictionaryProvider/
+0747cd4 Automatic translation import
+
+   * packages/screensavers/Basic/
+554c811 Automatic translation import
+
+   * packages/screensavers/PhotoTable/
+41be61e Automatic translation import
+
+   * packages/services/Mms/
+bd16b28 Automatic translation import
+
+   * packages/services/Telecomm/
+3444e97 Automatic translation import
+3b8253d Merge tag 'android-5.1.1_r37' into cm-12.1
+32d4c49 Revert audio speedup on mt call patches from qcom
+
+   * packages/services/Telephony/
+db7c742 Automatic translation import
+
+   * packages/wallpapers/Basic/
+28eb59e Automatic translation import
+
+   * packages/wallpapers/Galaxy4/
+54f821c Automatic translation import
+
+   * packages/wallpapers/LivePicker/
+1b49b86 Automatic translation import
+
+   * packages/wallpapers/MagicSmoke/
+ea7252c Automatic translation import
+
+   * packages/wallpapers/MusicVisualization/
+a6d3179 Automatic translation import
+
+   * packages/wallpapers/PhaseBeam/
+29a4639 Automatic translation import
+
+   * packages/wallpapers/PhotoPhase/
+d000394 Automatic translation import
+
+   * prebuilts/cmsdk/
+55dfb9c prebuilts/cmsdk: Update released artifact (overwritten).
+
+   * prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9/
+2500bd9 Update prebuilt GCC to build 2734602 (retry).
+
+   * system/core/
+29697dc Merge tag 'android-5.1.1_r37' into HEAD
+
+   * vendor/cmsdk/
+62227d9 Automatic translation import
+
+===================================
+Since dom mar 20 23:46:29 UTC 2016
+===================================
+
+
+   * frameworks/base/
+3a90803 base: Fix proximity check on non power key
+f919bb1 base: Fix proximity check on power key
+208d62d GlobalActions: Set the initial status of airplane mode toggle
+6f108fa Reduce log noise.
+
+   * hardware/cyanogen/
+8390f32 cmhw: Backport isSelfManaged method to cyanogen hw.
+
+   * hardware/qcom/fm/
+8b7a0fe FM Transmitter: Redesign the app icon based on FM Radio
+
+   * packages/apps/BluetoothExt/
+d0cf21f hiddTestApp: disable from launcher
+
+   * packages/apps/Settings/
+c9ddae0 Use settings' theme when inflating account prefs
+2f6f932 Remove "Apps" category when empty
+
+===================================
+Since lun mar  7 16:36:30 UTC 2016
+===================================
+
+
+   * android/
+0749a80 default.xml: android-5.1.1_r34 -> android-5.1.1_r35
+
+   * build/
+5c81333 Merge tag 'android-5.1.1_r35' into HEAD
+
+   * device/tcl/q39/
+fcd599a Set device name/model, properly
+12b1324 Add fingerprint
+50e5bb6 Update headset button codes (thanks kanatoly)
+
+   * external/libvpx/
+1181884 Merge tag 'android-5.1.1_r35' into HEAD
+
+   * frameworks/av/
+b053bad SoftVPXEncoder: don't skip the last input buffer with eos flag.
+64afa0f Merge tag 'android-5.1.1_r35' into HEAD
+
+   * frameworks/base/
+bec4158 Support for country specific ECC numbers in the framework
+7215c2e fix metrics density comparisons
+fda88fd SysUI: Fix hiding sensitive notification behavior
+fb22fe5 SysUI: Fix hiding per-app sensitive notifications
+
+   * frameworks/native/
+e87dfa2 Merge tag 'android-5.1.1_r35' into HEAD
+
+   * frameworks/opt/hardware/
+94ddbc9 cmhw: Add isSelfManaged for SRE module
+928af15 hardware: Add UniqueDeviceId support
+
+   * frameworks/opt/telephony/
+4c6e6d7 Merge tag 'android-5.1.1_r35' into HEAD
+
+   * hardware/cyanogen/
+4f5359c cmhw: UniqueDeviceId: don't generate hardware IDs from SD card CIDs
+f2df045 cmhw: Add UniqueDeviceId implementation
+
+   * packages/apps/Bluetooth/
+73fbfbe Merge tag 'android-5.1.1_r35' into HEAD
+
+   * packages/apps/Contacts/
+020d6f5 Exporting contacts Max limit
+
+   * packages/apps/Dialer/
+c7c7884 Delete failed CallRecording file
+
+   * packages/apps/Mms/
+cc2c382 Mms: Add support for custom sms notification tone
+73026f0 Mms: add ability to remove smart dialer feature
+
+   * packages/apps/Settings/
+e92f024 Settings: Update contributors cloud DB
+a62d9a2 Settings: disable Cast Screen from QuickSettings
+9c5c399 Settings: Modify RU translation for Ambient display
+cf4fa0c Settings: Allow disabling default allcaps state in tabtext.
+
+   * system/core/
+ac5f7fc liblog: build log_event_write regardless of TARGET_USES_LOGD
+
+   * vendor/cm/
+829a9bf cmsdk: bump internal platform revision
+d9f8980 Resolve Orange RO authtype
+0a892a2 Modify APN for Orange Romania
+
+   * vendor/cmsdk/
+268d115 cmsdk: Fix hardware service interfaces.
+49a1ddc cmsdk: Add CMHW method to check if SRE is self managed
+af62603 cmsdk: cmhw: Add UniqueDeviceId support
+a9f933a cmsdk: add invalid input checking for persistent storage APIs
+ba42c2c cmsdk: change persistent storage test cases to void return type
+
+===================================
+Since mié mar  2 21:19:42 UTC 2016
+===================================
+
+
+   * device/tcl/q39/
+8bc808a Fix a typo in setup-makefiles.sh
+38a180a Revert "Clean up proprietary files a bit"
+3225844 Fix double tap to wake
+f057f80 Add some more headset buttons
+7b9e3d2 Fix (some) headset buttons
+
+   * hardware/qcom/fm/
+13c72eb fmapp2: Add support for long press and short press from headset
+
+   * vendor/tcl/
+b91ae14 Revert some changes to fix video
+
+===================================
+Since jue feb 25 16:30:00 UTC 2016
+===================================
+
+
+   * bootable/recovery/
+28a566f Fix integer overflows in recovery procedure.
+
+   * build/
+04f82d5 "LMY49J"
+64c1e8b "LMC57"
+604febc "LMY49J"
+b2ac0ea Updating security string patch to 2016-04-01
+
+   * device/tcl/q39/
+ffc84b1 Cleanup keylayouts
+68c7efd Fix a couple of typos regarding thermal
+a972e39 Clean up proprietary files a bit
+8ca82d9 Move thermal config to device
+1754414 Enable OTA updates. Forks/cherry pick beware
+6a5e7cb Cleanup: get rid of useless etc folder
+32bee45 Fix device name and vendor in extract-files.sh
+
+   * external/bluetooth/bluedroid/
+c677ee9 DO NOT MERGE Remove Porsche car-kit pairing workaround
+412741c bnep_utils: remove correct duplicate else statement
+
+   * external/bouncycastle/
+b3bddea GCMParameters: fix insecure tag size
+
+   * external/dhcpcd/
+1390ace Improve length checks in DHCP Options parsing of dhcpcd.
+
+   * external/skia/
+b36c23b Update SK_CRASH to default to abort(). DO NOT MERGE
+
+   * external/sonivox/
+8e61834 Sonivox: add SafetyNet log.
+047330f Sonivox: sanity check numSamples.
+
+   * frameworks/av/
+3097f36 Get service by value instead of reference
+7a282fb Also fix out of bounds access for normal read
+1171e7c Clear allocation to avoid info leak
+25be9ac IOMX.cpp uninitialized pointer in BnOMX::onTransact
+
+   * frameworks/base/
+56eaddf SharedStorageAgent: fix off by 1
+69da9d9 Fonts: add sans-serif fallback fonts first
+d3383d5 NPE fix for SyncStorageEngine read authority am: a962d9eba7 am: 339c4f2b05 am: 58048c1f17
+63363af Redact Account info from getCurrentSyncs
+
+   * frameworks/minikin/
+f4785aa Add error logging on invalid cmap - DO NOT MERGE
+2a389cd Reject fonts with invalid ranges in cmap
+
+   * frameworks/native/
+a40b30f Add SN logging
+f3199c2 Sanity check IMemory access versus underlying mmap
+85d253f BQ: Add permission check to BufferQueueConsumer::dump
+
+   * frameworks/opt/telephony/
+5ecd860 telephony: Fix build on bad cherry-pick resolution.
+5736ddb [PATCH] (PICCOLO-4847) [PATCH] Force data attach when data is re  enabled after carrier-detatch.
+
+   * hardware/qcom/audio-caf/msm8916/
+f6620b6 audio: msm8916: Squashed audio amp commits
+
+   * libcore/
+efd369d GCMParameters: check that the default tag size is secure (16 bits)
+
+   * packages/apps/CertInstaller/
+70dde98 Trust CA certificates added for the whole OS only
+
+   * packages/apps/Exchange/
+0d1a38b Patch Exchange Autodiscover Code for Security Issue
+
+   * packages/apps/UnifiedEmail/
+0d9dfd6 Don't allow file attachment from file:///data.
+
+   * packages/providers/DownloadProvider/
+5110b8a Use resolved path for both checking and opening.
+
+   * packages/services/Telecomm/
+4f52419 Created as manual cherry-pick for http://ag/866007 to lmp-mr1-release
+a06c9a4 DO NOT MERGE - Restrict ability to add call based on device provision status
+
+   * system/core/
+81df1cc Don't create tombstone directory.
+669ecc2 ensure /data/tombstones exists on all Android devices
+
+   * vendor/tcl/
+e68f3f3 Get thermal conf out of vendor for real
+bb4ea55 Fix an error in qcom blobs syntax
+7e6da39 Clean up proprietary files a bit
+a14f58e Move thermal config to device
+
