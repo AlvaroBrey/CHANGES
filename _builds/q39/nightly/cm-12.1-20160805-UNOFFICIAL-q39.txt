@@ -1,0 +1,398 @@
+===================================
+Since jue jul 21 08:04:11 UTC 2016
+===================================
+
+
+   * vendor/cm/
+be78fee Tele2 (LT) APN updates
+
+===================================
+Since sáb jun  4 09:27:23 UTC 2016
+===================================
+
+
+   * android/
+19fd0b0 default.xml: Branch out external/conscrypy and external/jhead for security mantainance
+2889803 Revert "adding android-support-test for espresso test"
+629d324 default.xml: Branching off dalvik and external/tremolo
+eb78340 default.xml: Use branched out external/aac repo
+a412c1c default.xml: Do not point to aosp for external/aac
+
+   * build/
+30ef6e7 Updating security string to 2016-07-01
+de59b46 Update security patch string to 2016-06-01
+
+   * dalvik/
+f01dac7 Fix potential buffer overrun.
+
+   * external/bluetooth/bluedroid/
+f2e0de1 BT: Update calls to sBtInterface
+ddb0fb9 DO NOT MERGE btif: check overflow on create_pbuf size
+2bd881e Add guest mode functionality (2/3)
+
+   * external/libpng/
+aeddf70 DO NOT MERGE Update libpng to 1.6.20
+
+   * external/libvpx/
+f35e001 DO NOT MERGE - external/libvpx/libwebm: Update snapshot
+
+   * external/openssl/
+8e78194 Check that we have enough padding characters.
+7dd91db Fix encoding bug in i2c_ASN1_INTEGER
+0b0cbb0 Fix double-free in DSA code (CVE-2016-0705)
+
+   * external/sepolicy/
+5eba1de Remove generic socket access from untrusted processes
+
+   * external/tremolo/
+4151e3f Check partword is in range for # of partitions
+
+   * frameworks/av/
+4b6ef5c MPEG4Extractor: ensure kKeyTrackID exists before creating an MPEG4Source as track.
+b262a61 Check malloc result to avoid NPD
+55dadcd limit mediaserver memory
+8298230 h264bsdActivateParamSets: Prevent multiplication overflow.
+8851a9d Fix security vulnerability in libstagefright
+6ffe4d2 Clear unused pointer field when sending across binder
+d4955be SampleTable.cpp: Fixed a regression caused by a fix for bug 28076789.
+9fd0171 SampleTable.cpp: Prevent corrupted stts block from causing excessive memory allocation.
+67fb977 Verify OMX buffer sizes prior to access
+d86ae48 Fix initialization of AAC presentation struct
+e4639cb codecs: check OMX buffer size before use in (vorbis|opus)dec
+20297c9 codecs: check OMX buffer size before use in hevcdec
+73d0aa2 codecs: check OMX buffer size before use in (h263|h264)dec
+47f4eea AudioSource: initialize variables
+bb60dbe DO NOT MERGE codecs: check OMX buffer size before use in (gsm|g711)dec
+c827dee Check mp3 output buffer size
+15c0838 h264dec: check for overflows when calculating allocation size.
+
+   * frameworks/base/
+df57cc4 DO NOT MERGE : backport of backup transport whitelist
+9ff7397 Don't pass URL path and username/password to PAC scripts
+ccc80b4 Automatic translation import
+cf61218 resolve merge conflicts of 7641889 to lmp-mr1-dev
+cd3ab92 Kill the real/isolated uid group, not the ApplicationInfo uid
+
+   * frameworks/native/
+b92977d Correctly handle dup() failure in Parcel::readNativeHandle
+
+   * hardware/libhardware/
+ebebabf Add guest mode functionality (1/3)
+
+   * hardware/qcom/audio-caf/msm8916/
+0ff3f4c DO NOT MERGE Fix AudioEffect reply overflow
+
+   * hardware/qcom/audio-caf/msm8974/
+f5a1842 DO NOT MERGE Fix AudioEffect reply overflow
+
+   * hardware/qcom/audio-caf/msm8994/
+f6ed9ad DO NOT MERGE Fix AudioEffect reply overflow
+
+   * hardware/qcom/audio/default/
+030a173 DO NOT MERGE Fix AudioEffect reply overflow
+
+   * hardware/qcom/fm/
+2123442 Automatic translation import
+
+   * hardware/qcom/media-caf/msm8916/
+db45d95 mm-video-v4l2: venc: Avoid processing ETBs/FTBs in invalid states
+b404081 mm-video-v4l2: vdec: Avoid processing ETBs/FTBs in invalid states
+
+   * hardware/qcom/media-caf/msm8974/
+29786d4 mm-video-v4l2: venc: Avoid processing ETBs/FTBs in invalid states
+78d2700 mm-video-v4l2: vdec: Avoid processing ETBs/FTBs in invalid states
+
+   * hardware/qcom/media-caf/msm8994/
+e5b56d1 mm-video-v4l2: venc: Avoid processing ETBs/FTBs in invalid states
+4077fc2 mm-video-v4l2: vdec: Avoid processing ETBs/FTBs in invalid states
+
+   * hardware/qcom/media/default/
+dc650ec mm-video-v4l2: vdec: Avoid processing ETBs/FTBs in invalid states
+52898b3 mm-video-v4l2: venc: Avoid processing ETBs/FTBs in invalid states
+b48f447 mm-video-v4l2: vdec: Update param struct size correctly
+677d3e5 mm-video-v4l2: vidc: validate omx param/config data
+61cec0a mm-video-v4l2: venc: add safety checks for freeing buffers
+4360f08 mm-video-v4l2: vdec: add safety checks for freeing buffers
+b88f7f6 mm-video-v4l2: vdec: deprecate unused config OMX_IndexVendorVideoExtraData
+
+   * packages/apps/Bluetooth/
+59bcdd4 Add guest mode functionality (3/3)
+c83729c Revert ""DO NOT MERGE" Add write SMS protection"
+8c837f3 "DO NOT MERGE" Add write SMS protection
+
+   * packages/apps/BluetoothExt/
+d4e6dbb Automatic translation import
+
+   * packages/apps/CMFileManager/
+1df92a2 Automatic translation import
+
+   * packages/apps/CMUpdater/
+1213de8 Automatic translation import
+
+   * packages/apps/Calendar/
+5554258 Automatic translation import
+
+   * packages/apps/Contacts/
+bfc9192 Automatic translation import
+
+   * packages/apps/ContactsCommon/
+61be8bd Automatic translation import
+
+   * packages/apps/DeskClock/
+c3bb1ec Automatic translation import
+
+   * packages/apps/Dialer/
+8353055 Automatic translation import
+
+   * packages/apps/Eleven/
+8e3efb7 Automatic translation import
+
+   * packages/apps/LockClock/
+e4e4cca Automatic translation import
+
+   * packages/apps/Mms/
+4597355 Automatic translation import
+
+   * packages/apps/Nfc/
+78c52d5 Verify setForegroundDispatch caller is in foreground.
+
+   * packages/apps/Profiles/
+d1e509c Automatic translation import
+
+   * packages/apps/Settings/
+ec9a8bc Automatic translation import
+58ed3b8 Automatic translation import
+
+   * packages/apps/TvSettings/
+e4c3971 Automatic translation import
+
+   * packages/providers/DownloadProvider/
+9c4c232 Automatic translation import
+
+   * packages/services/Telephony/
+69fb0a5 Automatic translation import
+
+   * packages/wallpapers/PhotoPhase/
+ed30b9e Automatic translation import
+
+   * system/core/
+31f14de Fix scanf %s in lsof.
+0bb796c Fix overflow in path building
+
+===================================
+Since dom may 22 18:27:00 UTC 2016
+===================================
+
+
+   * build/
+7db5534 Avoid accidentally using the host's native 'as' command.
+
+   * frameworks/base/
+54eceb3 Automatic translation import
+
+   * hardware/qcom/fm/
+7dc9f65 Automatic translation import
+
+   * packages/apps/CMFileManager/
+c8f13ac Automatic translation import
+
+   * packages/apps/Mms/
+8b3fa72 Automatic translation import
+
+   * packages/apps/Settings/
+2f883aa Hardware version info missing
+a8e0d9a Automatic translation import
+
+   * packages/apps/SetupWizard/
+29384ba Automatic translation import
+
+   * packages/services/Telephony/
+13f91f2 Emergency dialing screen flickering(1/2)
+4b36781 Automatic translation import
+
+   * vendor/cmsdk/
+c95fb70 Automatic translation import
+
+===================================
+Since mié may  4 09:59:20 UTC 2016
+===================================
+
+
+   * build/
+7ff0b03 Merge Conflict--Update Security String to 2016-05-01 in preparation for May 2016 Security OTA
+
+   * external/bluetooth/bluedroid/
+7d9fc98 DO NOT MERGE Check size of pin before replying
+
+   * external/flac/
+13879f9 Avoid free-before-initialize vulnerability in heap
+
+   * external/wpa_supplicant_8/
+488403d Guard against return value already being null
+f119bf2 Remove newlines from config output
+
+   * frameworks/av/
+ade8d33 Fix AMR decoder
+488e35d Subject: [PATCH 6/9] SoftAMR: check input buffer size to avoid overflow.
+9523ab9 SoftAMR: check output buffer size to avoid overflow.
+f89510c codecs: check OMX buffer size before use in VP8 encoder.
+57dc8f4 NuPlayerStreamListener: NULL and bounds check before memcpy
+2bc8325 Camera3Device: Validate template ID
+81c5ab5 Add VPX output buffer size check
+
+   * frameworks/base/
+a747373 Update volume slider only if ringer mode changed
+d8e806f8 Automatic translation import
+4ecd401 Disallow guest user from changing Wifi settings
+7049985 Automatic translation import
+4b2c7d0 RemoteController: extract interface conflicting with CTS test (1/2)
+
+   * frameworks/native/
+c7e90d6 Fix issue #27252896: Security Vulnerability -- weak binder
+ddc6177 BQ: fix some uninitialized variables
+
+   * hardware/qcom/fm/
+3021a69 Automatic translation import
+002cfe0 FM radio: Add 'Vietnam' to 'Regional Band' list in settings
+2ca9437 Fixing crash seen on FM radio. Crash is due a NullPointerException while accessing mService. Added null checks before accessing mService reference.
+5e7ecab Convert regional band arrays to string references
+045bd06 Automatic translation import
+
+   * hardware/qcom/media-caf/msm8916/
+a5a6f85 mm-video-v4l2: vidc: validate omx param/config data
+7ddd74c mm-video-v4l2: venc: add safety checks for freeing  buffers
+1e21660 mm-video-v4l2: vdec: add safety checks for freeing buffers
+ad223ba mm-video-v4l2: vdec: deprecate unused config OMX_IndexVendorVideoExtraData
+
+   * packages/apps/Bluetooth/
+d451781 Automatic translation import
+5aaa620 Bluetooth: split out AVRCP remote interfaces (2/2)
+
+   * packages/apps/Browser/
+845e3ef Automatic translation import
+
+   * packages/apps/CMBugReport/
+8baf8ed Automatic translation import
+c82608d Automatic translation import
+
+   * packages/apps/CMFileManager/
+20785ed Automatic translation import
+
+   * packages/apps/CMUpdater/
+1e3bafd Automatic translation import
+
+   * packages/apps/CMWallpapers/
+4106bd4 Automatic translation import
+
+   * packages/apps/Calendar/
+14e686c Automatic translation import
+150cbdb Automatic translation import
+
+   * packages/apps/Camera2/
+8654325 Automatic translation import
+
+   * packages/apps/CellBroadcastReceiver/
+e729831 Automatic translation import
+
+   * packages/apps/Contacts/
+8c4b745 Automatic translation import
+
+   * packages/apps/ContactsCommon/
+0af807d Automatic translation import
+fd958fc Enable support for groups in External contacts accounts
+
+   * packages/apps/DeskClock/
+63794e8 Automatic translation import
+
+   * packages/apps/Dialer/
+5cab1b2 Automatic translation import
+
+   * packages/apps/Email/
+2b8d11c Don't allow cachedFile Attachments if the content Uri is pointing to EmailProvider.
+
+   * packages/apps/Gallery2/
+7d4466d Automatic translation import
+
+   * packages/apps/InCallUI/
+e8aa1b7 Automatic translation import
+
+   * packages/apps/LockClock/
+1a4d69b Automatic translation import
+
+   * packages/apps/Mms/
+8386f40 Automatic translation import
+184c0d6 Automatic translation import
+
+   * packages/apps/Nfc/
+041984e Automatic translation import
+
+   * packages/apps/PackageInstaller/
+7f0caf5 Automatic translation import
+
+   * packages/apps/PhoneCommon/
+5e8f426 Automatic translation import
+
+   * packages/apps/Profiles/
+7141b6d Automatic translation import
+
+   * packages/apps/Settings/
+457013e Automatic translation import
+2f9fa41 Hide Keypad for pattern lock.
+d63f498 Automatic translation import
+
+   * packages/apps/SetupWizard/
+2bd9373 Automatic translation import
+
+   * packages/apps/SoundRecorder/
+27923b0 Automatic translation import
+
+   * packages/apps/Trebuchet/
+08b1b72 Automatic translation import
+
+   * packages/apps/TvSettings/
+dd69352 Automatic translation import
+
+   * packages/apps/UnifiedEmail/
+0e5acb1 Automatic translation import
+d6b298b Don't allow cachedFile Attachments if the content Uri is pointing to EmailProvider.
+
+   * packages/inputmethods/LatinIME/
+43f5301 Automatic translation import
+
+   * packages/providers/CalendarProvider/
+4a312fe Automatic translation import
+
+   * packages/providers/ContactsProvider/
+08dcb1c Automatic translation import
+
+   * packages/providers/DownloadProvider/
+29e9dec Automatic translation import
+
+   * packages/services/Telephony/
+1db5afc Automatic translation import
+52b9135 Automatic translation import
+
+   * prebuilts/cmsdk/
+e029cf3 prebuilts/cmsdk: Update for patch release.
+
+   * system/core/
+1918072 Don't demangle symbol names.
+
+   * vendor/cmsdk/
+2e0164c Automatic translation import
+d49538a Automatic translation import
+
+===================================
+Since jue abr 21 15:11:19 UTC 2016
+===================================
+
+
+   * packages/apps/Calendar/
+5794029 Calendar: Fix translatability of buttons list
+
+   * packages/apps/Settings/
+21fcd21 Settings: restore proper live display color profile
+
+   * packages/apps/SetupWizard/
+8684e9d SetupWizard: GMS page controls the next step
+
