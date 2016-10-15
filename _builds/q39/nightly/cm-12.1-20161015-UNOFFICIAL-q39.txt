@@ -1,0 +1,348 @@
+===================================
+Since dom oct  2 18:05:13 UTC 2016
+===================================
+
+
+   * android/
+327c072 default.xml: Branching off external/expat and external/freetype
+
+   * build/
+ea70746 Update Security String to 2016-10-01 to platform and CTS for October
+
+   * frameworks/av/
+0d8957b MediaPlayerService: allow next player to be NULL
+8456011 Fix build break from SoftMPEG4Encoder.cpp
+f64a9f0 Fix build breakage caused by commit 940829f69b52d6038db66a9c727534636ecc456d.
+71d4a55 DO NOT MERGE - SoftMPEG4: Check the buffer size before writing the reference frame.
+42384b5 better validation lengths of strings in ID3 tags
+5ab40e2 MediaPlayerService: avoid invalid static cast
+c0ede79 Add EFFECT_CMD_SET_PARAM parameter checking
+eedcded soundtrigger: add size check on sound model and recogntion data
+
+   * frameworks/base/
+3a32715 DO NOT MERGE: Fix vulnerability where large GPS XTRA data can be injected. -Can potentially crash system with OOM. Bug: 29555864
+6ef9b63 DO NOT MERGE: Clean up when recycling a pid with a pending launch
+6ac14d5 Process: Fix communication with zygote.
+
+   * frameworks/native/
+ccc63f4 ServiceManager: Allow system services running as secondary users to add services
+3300608 DO NOT MERGE ServiceManager: Restore basic uid check
+
+   * packages/apps/Email/
+40fa340 Limit account id and id to longs
+
+   * packages/providers/TelephonyProvider/
+c92f66f 30481342: Security Vulnerability - TOCTOU in MmsProvider  allows access to files as phone (radio) uid - DO NOT MERGE
+
+   * prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9/
+8057ba1 Update prebuilt GCC to build 3335333.
+
+   * system/core/
+217dfd1 Fix vold vulnerability in FrameworkListener
+
+   * system/media/
+0dc5428 Camera metadata: Check for inconsistent data count
+b0fd9f9 Camera: Prevent data size overflow
+
+===================================
+Since jue sep 15 19:18:41 UTC 2016
+===================================
+
+
+   * external/mm-dash/
+9fb679d Add dest length parameter to utf16_to_utf8
+
+   * packages/apps/DeskClock/
+026244e Allow music files other than OGG to be chosen as alarm
+
+===================================
+Since vie ago  5 12:57:50 UTC 2016
+===================================
+
+
+   * build/
+e07d371 Updating security string to 2016-09-01 to platform and CTS in preparation for 2016 September OTA
+e128849 Update security patch string to 2016-08-05
+
+   * external/bluetooth/bluedroid/
+1a77913 DO NOT MERGE Fix potential DoS caused by delivering signal to  BT process
+
+   * external/bouncycastle/
+94493e0 GCMParameters: in ASN1 encoding, use 12 when no value is specified
+
+   * external/conscrypt/
+d04f9ef Use SSL_session_reused to check when a session was reused
+
+   * external/flac/
+ff886db src/libFLAC/stream_decoder.c : Fix NULL de-reference.
+
+   * external/jhead/
+2e44d90 Fix possible out of bounds accesses
+4ba623c Fix possible out of bounds access
+
+   * external/libvpx/
+42fe8ae DO NOT MERGE | libvpx: cherry-pick aa1c813 from upstream
+
+   * external/openssl/
+09e84e2 Fix memory issues in BIO_*printf functions
+
+   * external/sonivox/
+e2d67a9 Fix NULL pointer dereference
+
+   * frameworks/av/
+d2e99a7 DO NOT MERGE - stagefright: fix integer overflow error
+9b5caa8 DO NOT MERGE Add bound checks to utf16_to_utf8
+a44a662 DO NOT MERGE - SoftVPX: fix nFilledLen overflow
+5b26c5b DO NOT MERGE stagefright: fix possible stack overflow in AVCC reassemble
+3e6589e DO NOT MERGE - SoftMP3: memset safely
+8326655 OMXCodec: check IMemory::pointer() before using allocation
+a442cb7 Impose a size bound for dynamically allocated tables in stbl.
+7af0de2 omx: prevent input port enable/disable for software codecs
+08ed47a Fix corruption via buffer overflow in mediaserver
+21e0fd1 DO NOT MERGE omx: check buffer port before using
+998ab61 DO NOT MERGE: Camera: Adjust pointers to ANW buffers to avoid infoleak
+3d89d0b Check effect command reply size in AudioFlinger
+05d3017 SoftAAC2: fix crash on all-zero adts buffer
+44460fb Don't use sp<>&
+a01e6ba Fix potential overflow
+
+   * frameworks/base/
+4e416c7 DO NOT MERGE: Fix CTS regression
+a644bab Fix string equality comparison
+c02afdc WifiEnterpriseConfiguration: Do not print credentials in toString
+a3fa2ec DO NOT MERGE: Remove the use of JHEAD in ExifInterface
+4caa064 DO NOT MERGE: Add pm operation to set user restrictions.
+1e70890 DO NOT MERGE: Reduce shell power over user management.
+b74c808 Don't trust callers to supply app info to bindBackupAgent()
+2040bf6 DO NOT MERGE Fix intent filter priorities
+
+   * frameworks/native/
+ae5f819 Add FrameStats default constructor
+
+   * frameworks/opt/net/wifi/
+ce268a2 Deal correctly with short strings
+
+   * frameworks/opt/telephony/
+f027b90 DO NOT MERGE add private function converSafeLabel
+8673b3f Do not allow premium SMS during SuW
+ac1ed64 backport security fix: avoid set NITZ time to 2038
+
+   * hardware/qcom/media-caf/msm8916/
+84513fa DO NOT MERGE mm-video-v4l2: venc: add checks before accessing heap pointers
+876fd22 DO NOT MERGE Fix wrong nAllocLen
+
+   * hardware/qcom/media-caf/msm8974/
+08472db dashplayer: Adding extra parameter for utf16_to_utf8
+fe58d73 DO NOT MERGE mm-video-v4l2: venc: add checks before accessing heap pointers
+d6cdc33 DO NOT MERGE Fix wrong nAllocLen
+
+   * hardware/qcom/media-caf/msm8994/
+46985a5 DO NOT MERGE mm-video-v4l2: venc: add checks before accessing heap pointers
+3455a06 DO NOT MERGE Fix wrong nAllocLen
+
+   * hardware/qcom/media/default/
+f2180f3 DO NOT MERGE mm-video-v4l2: venc: add checks before accessing heap pointers
+d31c25c DO NOT MERGE Fix wrong nAllocLen
+
+   * libcore/
+20c23b8 CipherTest: in ASN1 encoding for GCM, no value for tag size means 12
+
+   * packages/apps/Email/
+8521557 stop exporting EmailAccountCacheProvider
+
+   * packages/services/Telephony/
+a2da9be Make TTY broadcasts protected
+
+   * prebuilts/cmsdk/
+755b224 prebuilts/cmsdk: Provide release artifact for Fig.
+
+   * system/core/
+a2b4360 DO NOT MERGE: adb: use asocket's close function when closing.
+2cdbe55 DO NOT MERGE libutils/Unicode.cpp: Correct length computation and add checks for utf16->utf8
+82f218b DO NOT MERGE: debuggerd: verify that traced threads belong to the right process.
+
+   * vendor/cm/
+01e2b55 Allow maintenance versions to be ignored
+3c8c85e version: Set version string to 12.1.1 to reflect security update
+
+===================================
+Since jue jul 21 08:04:11 UTC 2016
+===================================
+
+
+   * vendor/cm/
+be78fee Tele2 (LT) APN updates
+
+===================================
+Since sáb jun  4 09:27:23 UTC 2016
+===================================
+
+
+   * android/
+19fd0b0 default.xml: Branch out external/conscrypy and external/jhead for security mantainance
+2889803 Revert "adding android-support-test for espresso test"
+629d324 default.xml: Branching off dalvik and external/tremolo
+eb78340 default.xml: Use branched out external/aac repo
+a412c1c default.xml: Do not point to aosp for external/aac
+
+   * build/
+30ef6e7 Updating security string to 2016-07-01
+de59b46 Update security patch string to 2016-06-01
+
+   * dalvik/
+f01dac7 Fix potential buffer overrun.
+
+   * external/bluetooth/bluedroid/
+f2e0de1 BT: Update calls to sBtInterface
+ddb0fb9 DO NOT MERGE btif: check overflow on create_pbuf size
+2bd881e Add guest mode functionality (2/3)
+
+   * external/libpng/
+aeddf70 DO NOT MERGE Update libpng to 1.6.20
+
+   * external/libvpx/
+f35e001 DO NOT MERGE - external/libvpx/libwebm: Update snapshot
+
+   * external/openssl/
+8e78194 Check that we have enough padding characters.
+7dd91db Fix encoding bug in i2c_ASN1_INTEGER
+0b0cbb0 Fix double-free in DSA code (CVE-2016-0705)
+
+   * external/sepolicy/
+5eba1de Remove generic socket access from untrusted processes
+
+   * external/tremolo/
+4151e3f Check partword is in range for # of partitions
+
+   * frameworks/av/
+4b6ef5c MPEG4Extractor: ensure kKeyTrackID exists before creating an MPEG4Source as track.
+b262a61 Check malloc result to avoid NPD
+55dadcd limit mediaserver memory
+8298230 h264bsdActivateParamSets: Prevent multiplication overflow.
+8851a9d Fix security vulnerability in libstagefright
+6ffe4d2 Clear unused pointer field when sending across binder
+d4955be SampleTable.cpp: Fixed a regression caused by a fix for bug 28076789.
+9fd0171 SampleTable.cpp: Prevent corrupted stts block from causing excessive memory allocation.
+67fb977 Verify OMX buffer sizes prior to access
+d86ae48 Fix initialization of AAC presentation struct
+e4639cb codecs: check OMX buffer size before use in (vorbis|opus)dec
+20297c9 codecs: check OMX buffer size before use in hevcdec
+73d0aa2 codecs: check OMX buffer size before use in (h263|h264)dec
+47f4eea AudioSource: initialize variables
+bb60dbe DO NOT MERGE codecs: check OMX buffer size before use in (gsm|g711)dec
+c827dee Check mp3 output buffer size
+15c0838 h264dec: check for overflows when calculating allocation size.
+
+   * frameworks/base/
+df57cc4 DO NOT MERGE : backport of backup transport whitelist
+9ff7397 Don't pass URL path and username/password to PAC scripts
+ccc80b4 Automatic translation import
+cf61218 resolve merge conflicts of 7641889 to lmp-mr1-dev
+cd3ab92 Kill the real/isolated uid group, not the ApplicationInfo uid
+
+   * frameworks/native/
+b92977d Correctly handle dup() failure in Parcel::readNativeHandle
+
+   * hardware/libhardware/
+ebebabf Add guest mode functionality (1/3)
+
+   * hardware/qcom/audio-caf/msm8916/
+0ff3f4c DO NOT MERGE Fix AudioEffect reply overflow
+
+   * hardware/qcom/audio-caf/msm8974/
+f5a1842 DO NOT MERGE Fix AudioEffect reply overflow
+
+   * hardware/qcom/audio-caf/msm8994/
+f6ed9ad DO NOT MERGE Fix AudioEffect reply overflow
+
+   * hardware/qcom/audio/default/
+030a173 DO NOT MERGE Fix AudioEffect reply overflow
+
+   * hardware/qcom/fm/
+2123442 Automatic translation import
+
+   * hardware/qcom/media-caf/msm8916/
+db45d95 mm-video-v4l2: venc: Avoid processing ETBs/FTBs in invalid states
+b404081 mm-video-v4l2: vdec: Avoid processing ETBs/FTBs in invalid states
+
+   * hardware/qcom/media-caf/msm8974/
+29786d4 mm-video-v4l2: venc: Avoid processing ETBs/FTBs in invalid states
+78d2700 mm-video-v4l2: vdec: Avoid processing ETBs/FTBs in invalid states
+
+   * hardware/qcom/media-caf/msm8994/
+e5b56d1 mm-video-v4l2: venc: Avoid processing ETBs/FTBs in invalid states
+4077fc2 mm-video-v4l2: vdec: Avoid processing ETBs/FTBs in invalid states
+
+   * hardware/qcom/media/default/
+dc650ec mm-video-v4l2: vdec: Avoid processing ETBs/FTBs in invalid states
+52898b3 mm-video-v4l2: venc: Avoid processing ETBs/FTBs in invalid states
+b48f447 mm-video-v4l2: vdec: Update param struct size correctly
+677d3e5 mm-video-v4l2: vidc: validate omx param/config data
+61cec0a mm-video-v4l2: venc: add safety checks for freeing buffers
+4360f08 mm-video-v4l2: vdec: add safety checks for freeing buffers
+b88f7f6 mm-video-v4l2: vdec: deprecate unused config OMX_IndexVendorVideoExtraData
+
+   * packages/apps/Bluetooth/
+59bcdd4 Add guest mode functionality (3/3)
+c83729c Revert ""DO NOT MERGE" Add write SMS protection"
+8c837f3 "DO NOT MERGE" Add write SMS protection
+
+   * packages/apps/BluetoothExt/
+d4e6dbb Automatic translation import
+
+   * packages/apps/CMFileManager/
+1df92a2 Automatic translation import
+
+   * packages/apps/CMUpdater/
+1213de8 Automatic translation import
+
+   * packages/apps/Calendar/
+5554258 Automatic translation import
+
+   * packages/apps/Contacts/
+bfc9192 Automatic translation import
+
+   * packages/apps/ContactsCommon/
+61be8bd Automatic translation import
+
+   * packages/apps/DeskClock/
+c3bb1ec Automatic translation import
+
+   * packages/apps/Dialer/
+8353055 Automatic translation import
+
+   * packages/apps/Eleven/
+8e3efb7 Automatic translation import
+
+   * packages/apps/LockClock/
+e4e4cca Automatic translation import
+
+   * packages/apps/Mms/
+4597355 Automatic translation import
+
+   * packages/apps/Nfc/
+78c52d5 Verify setForegroundDispatch caller is in foreground.
+
+   * packages/apps/Profiles/
+d1e509c Automatic translation import
+
+   * packages/apps/Settings/
+ec9a8bc Automatic translation import
+58ed3b8 Automatic translation import
+
+   * packages/apps/TvSettings/
+e4c3971 Automatic translation import
+
+   * packages/providers/DownloadProvider/
+9c4c232 Automatic translation import
+
+   * packages/services/Telephony/
+69fb0a5 Automatic translation import
+
+   * packages/wallpapers/PhotoPhase/
+ed30b9e Automatic translation import
+
+   * system/core/
+31f14de Fix scanf %s in lsof.
+0bb796c Fix overflow in path building
+
