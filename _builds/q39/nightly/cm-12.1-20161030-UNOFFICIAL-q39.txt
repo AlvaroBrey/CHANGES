@@ -1,0 +1,180 @@
+===================================
+Since sáb oct 15 12:37:36 UTC 2016
+===================================
+
+
+===================================
+Since dom oct  2 18:05:13 UTC 2016
+===================================
+
+
+   * android/
+327c072 default.xml: Branching off external/expat and external/freetype
+
+   * build/
+ea70746 Update Security String to 2016-10-01 to platform and CTS for October
+
+   * frameworks/av/
+0d8957b MediaPlayerService: allow next player to be NULL
+8456011 Fix build break from SoftMPEG4Encoder.cpp
+f64a9f0 Fix build breakage caused by commit 940829f69b52d6038db66a9c727534636ecc456d.
+71d4a55 DO NOT MERGE - SoftMPEG4: Check the buffer size before writing the reference frame.
+42384b5 better validation lengths of strings in ID3 tags
+5ab40e2 MediaPlayerService: avoid invalid static cast
+c0ede79 Add EFFECT_CMD_SET_PARAM parameter checking
+eedcded soundtrigger: add size check on sound model and recogntion data
+
+   * frameworks/base/
+3a32715 DO NOT MERGE: Fix vulnerability where large GPS XTRA data can be injected. -Can potentially crash system with OOM. Bug: 29555864
+6ef9b63 DO NOT MERGE: Clean up when recycling a pid with a pending launch
+6ac14d5 Process: Fix communication with zygote.
+
+   * frameworks/native/
+ccc63f4 ServiceManager: Allow system services running as secondary users to add services
+3300608 DO NOT MERGE ServiceManager: Restore basic uid check
+
+   * packages/apps/Email/
+40fa340 Limit account id and id to longs
+
+   * packages/providers/TelephonyProvider/
+c92f66f 30481342: Security Vulnerability - TOCTOU in MmsProvider  allows access to files as phone (radio) uid - DO NOT MERGE
+
+   * prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9/
+8057ba1 Update prebuilt GCC to build 3335333.
+
+   * system/core/
+217dfd1 Fix vold vulnerability in FrameworkListener
+
+   * system/media/
+0dc5428 Camera metadata: Check for inconsistent data count
+b0fd9f9 Camera: Prevent data size overflow
+
+===================================
+Since jue sep 15 19:18:41 UTC 2016
+===================================
+
+
+   * external/mm-dash/
+9fb679d Add dest length parameter to utf16_to_utf8
+
+   * packages/apps/DeskClock/
+026244e Allow music files other than OGG to be chosen as alarm
+
+===================================
+Since vie ago  5 12:57:50 UTC 2016
+===================================
+
+
+   * build/
+e07d371 Updating security string to 2016-09-01 to platform and CTS in preparation for 2016 September OTA
+e128849 Update security patch string to 2016-08-05
+
+   * external/bluetooth/bluedroid/
+1a77913 DO NOT MERGE Fix potential DoS caused by delivering signal to  BT process
+
+   * external/bouncycastle/
+94493e0 GCMParameters: in ASN1 encoding, use 12 when no value is specified
+
+   * external/conscrypt/
+d04f9ef Use SSL_session_reused to check when a session was reused
+
+   * external/flac/
+ff886db src/libFLAC/stream_decoder.c : Fix NULL de-reference.
+
+   * external/jhead/
+2e44d90 Fix possible out of bounds accesses
+4ba623c Fix possible out of bounds access
+
+   * external/libvpx/
+42fe8ae DO NOT MERGE | libvpx: cherry-pick aa1c813 from upstream
+
+   * external/openssl/
+09e84e2 Fix memory issues in BIO_*printf functions
+
+   * external/sonivox/
+e2d67a9 Fix NULL pointer dereference
+
+   * frameworks/av/
+d2e99a7 DO NOT MERGE - stagefright: fix integer overflow error
+9b5caa8 DO NOT MERGE Add bound checks to utf16_to_utf8
+a44a662 DO NOT MERGE - SoftVPX: fix nFilledLen overflow
+5b26c5b DO NOT MERGE stagefright: fix possible stack overflow in AVCC reassemble
+3e6589e DO NOT MERGE - SoftMP3: memset safely
+8326655 OMXCodec: check IMemory::pointer() before using allocation
+a442cb7 Impose a size bound for dynamically allocated tables in stbl.
+7af0de2 omx: prevent input port enable/disable for software codecs
+08ed47a Fix corruption via buffer overflow in mediaserver
+21e0fd1 DO NOT MERGE omx: check buffer port before using
+998ab61 DO NOT MERGE: Camera: Adjust pointers to ANW buffers to avoid infoleak
+3d89d0b Check effect command reply size in AudioFlinger
+05d3017 SoftAAC2: fix crash on all-zero adts buffer
+44460fb Don't use sp<>&
+a01e6ba Fix potential overflow
+
+   * frameworks/base/
+4e416c7 DO NOT MERGE: Fix CTS regression
+a644bab Fix string equality comparison
+c02afdc WifiEnterpriseConfiguration: Do not print credentials in toString
+a3fa2ec DO NOT MERGE: Remove the use of JHEAD in ExifInterface
+4caa064 DO NOT MERGE: Add pm operation to set user restrictions.
+1e70890 DO NOT MERGE: Reduce shell power over user management.
+b74c808 Don't trust callers to supply app info to bindBackupAgent()
+2040bf6 DO NOT MERGE Fix intent filter priorities
+
+   * frameworks/native/
+ae5f819 Add FrameStats default constructor
+
+   * frameworks/opt/net/wifi/
+ce268a2 Deal correctly with short strings
+
+   * frameworks/opt/telephony/
+f027b90 DO NOT MERGE add private function converSafeLabel
+8673b3f Do not allow premium SMS during SuW
+ac1ed64 backport security fix: avoid set NITZ time to 2038
+
+   * hardware/qcom/media-caf/msm8916/
+84513fa DO NOT MERGE mm-video-v4l2: venc: add checks before accessing heap pointers
+876fd22 DO NOT MERGE Fix wrong nAllocLen
+
+   * hardware/qcom/media-caf/msm8974/
+08472db dashplayer: Adding extra parameter for utf16_to_utf8
+fe58d73 DO NOT MERGE mm-video-v4l2: venc: add checks before accessing heap pointers
+d6cdc33 DO NOT MERGE Fix wrong nAllocLen
+
+   * hardware/qcom/media-caf/msm8994/
+46985a5 DO NOT MERGE mm-video-v4l2: venc: add checks before accessing heap pointers
+3455a06 DO NOT MERGE Fix wrong nAllocLen
+
+   * hardware/qcom/media/default/
+f2180f3 DO NOT MERGE mm-video-v4l2: venc: add checks before accessing heap pointers
+d31c25c DO NOT MERGE Fix wrong nAllocLen
+
+   * libcore/
+20c23b8 CipherTest: in ASN1 encoding for GCM, no value for tag size means 12
+
+   * packages/apps/Email/
+8521557 stop exporting EmailAccountCacheProvider
+
+   * packages/services/Telephony/
+a2da9be Make TTY broadcasts protected
+
+   * prebuilts/cmsdk/
+755b224 prebuilts/cmsdk: Provide release artifact for Fig.
+
+   * system/core/
+a2b4360 DO NOT MERGE: adb: use asocket's close function when closing.
+2cdbe55 DO NOT MERGE libutils/Unicode.cpp: Correct length computation and add checks for utf16->utf8
+82f218b DO NOT MERGE: debuggerd: verify that traced threads belong to the right process.
+
+   * vendor/cm/
+01e2b55 Allow maintenance versions to be ignored
+3c8c85e version: Set version string to 12.1.1 to reflect security update
+
+===================================
+Since jue jul 21 08:04:11 UTC 2016
+===================================
+
+
+   * vendor/cm/
+be78fee Tele2 (LT) APN updates
+
