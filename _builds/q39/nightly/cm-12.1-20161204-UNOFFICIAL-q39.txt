@@ -1,0 +1,148 @@
+===================================
+Since Sat Nov 19 18:22:37 UTC 2016
+===================================
+
+
+   * frameworks/base/
+cf70929 zygote: Allow device to append extra whitelisted paths
+
+===================================
+Since Sun Oct 30 10:41:40 UTC 2016
+===================================
+
+
+   * build/
+fb054de Update Security String to 2016-11-01 b/31618336
+
+   * external/expat/
+71c8978 Fix cast from pointer to integer of different size
+b2777c9 Security Vulnerability - CVE-2012-6702 and CVE-2016-5300
+9721a33 Fix CVE-2016-0718: Expat XML Parser Crashes on Malformed Input
+2663d96 Upgrade to expat 2.1.1
+
+   * external/jpeg/
+b245f27 libjpeg should always use jmemnobs DO NOT MERGE
+
+   * external/libvpx/
+d80513b DO NOT MERGE libvpx: Cherry-pick 8b4c315 from upstream
+07adaa6 DO NOT MERGE | libvpx: Cherry-pick 0f42d1f from upstream
+
+   * external/sepolicy/
+7e482bd Allow the zygote to stat all files it opens.
+
+   * frameworks/av/
+e895b3f IOMX: do not clear buffer if it's allocated by component
+ea35996 IOMX: allow configuration after going to loaded state
+b4b26e2 DO NOT MERGE: IOMX: work against metadata buffer spoofing
+defd60b DO NOT MERGE omx: check buffer port before using
+a41095d SoundTrigger: get service by value.
+a4b3c4e SampleIterator: clear members on seekTo error
+98d6bd6 Fix potential overflow in Visualizer effect
+79df0b3 Check mprotect result
+65a3e27 Limit mp4 atom size to something reasonable
+09a3abc libstagefright: wfd: don't use intra macroblock refresh mode on omap4
+6e79793 Allow to use baseline profile for AVC recording
+
+   * frameworks/base/
+914117c Add CMSDK resource APK to Zygote FD whitelist
+1e90c5f Fix build break due to automerge of 7d2198b5
+2cf52d2 Avoid crashing when downloading MitM'd PAC that is too big am: 7d2198b586 am: 9c1cb7a273 am: 6634e90ad7 am: 66ee2296a9
+2cac609 DO NOT MERGE: Fix deadlock in AcitivityManagerService.
+3a7dcd7 Use "all_downloads" instead of "my_downloads".
+3a4e37b Fix setPairingConfirmation permissions issue (2/2)
+4ad527d Prevent FDs from being leaked when accepted sockets are closed
+0a82db8 Backport changes to whitelist sockets opened by the zygote.
+74a2716 DO NOT MERGE) ExifInterface: Make saveAttributes throw an exception before change
+0a77aa4 DO NOT MERGE Check caller for sending media key to global priority session
+
+   * hardware/qcom/audio-caf/msm8916/
+ae92537 Fix potential overflow in Visualizer effect
+
+   * hardware/qcom/audio-caf/msm8974/
+c7765a7 Fix potential overflow in Visualizer effect
+
+   * hardware/qcom/audio-caf/msm8994/
+8db8a1f Fix potential overflow in Visualizer effect
+
+   * hardware/qcom/audio/default/
+8a75932 Fix potential overflow in Visualizer effect
+
+   * hardware/qcom/media-caf/msm8960/
+56a3bab Add dest length parameter to utf16_to_utf8
+
+   * hardware/ti/omap4/
+48e27c9 omap4: Fix screencast
+
+   * libcore/
+98abbaf IDN: Fix handling of long domain names.
+0cea345 System: Close log sockets prior to a fork.
+
+   * packages/apps/Bluetooth/
+e7095a7 Fix setPairingConfirmation permissions issue (1/2)
+
+   * packages/providers/DownloadProvider/
+2e51b32 Enforce calling identity before clearing.
+
+   * system/core/
+5479772 libzipfile: add additional validity checks.
+8dc5fd6 liblog: add __android_log_close()
+
+   * system/media/
+3047f5d Fix potential overflow in Visualizer effect
+
+===================================
+Since Sun Oct 30 10:41:40 UTC 2016
+===================================
+
+
+===================================
+Since Sat Oct 15 12:37:36 UTC 2016
+===================================
+
+
+===================================
+Since Sun Oct  2 18:05:13 UTC 2016
+===================================
+
+
+   * android/
+327c072 default.xml: Branching off external/expat and external/freetype
+
+   * build/
+ea70746 Update Security String to 2016-10-01 to platform and CTS for October
+
+   * frameworks/av/
+0d8957b MediaPlayerService: allow next player to be NULL
+8456011 Fix build break from SoftMPEG4Encoder.cpp
+f64a9f0 Fix build breakage caused by commit 940829f69b52d6038db66a9c727534636ecc456d.
+71d4a55 DO NOT MERGE - SoftMPEG4: Check the buffer size before writing the reference frame.
+42384b5 better validation lengths of strings in ID3 tags
+5ab40e2 MediaPlayerService: avoid invalid static cast
+c0ede79 Add EFFECT_CMD_SET_PARAM parameter checking
+eedcded soundtrigger: add size check on sound model and recogntion data
+
+   * frameworks/base/
+3a32715 DO NOT MERGE: Fix vulnerability where large GPS XTRA data can be injected. -Can potentially crash system with OOM. Bug: 29555864
+6ef9b63 DO NOT MERGE: Clean up when recycling a pid with a pending launch
+6ac14d5 Process: Fix communication with zygote.
+
+   * frameworks/native/
+ccc63f4 ServiceManager: Allow system services running as secondary users to add services
+3300608 DO NOT MERGE ServiceManager: Restore basic uid check
+
+   * packages/apps/Email/
+40fa340 Limit account id and id to longs
+
+   * packages/providers/TelephonyProvider/
+c92f66f 30481342: Security Vulnerability - TOCTOU in MmsProvider  allows access to files as phone (radio) uid - DO NOT MERGE
+
+   * prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9/
+8057ba1 Update prebuilt GCC to build 3335333.
+
+   * system/core/
+217dfd1 Fix vold vulnerability in FrameworkListener
+
+   * system/media/
+0dc5428 Camera metadata: Check for inconsistent data count
+b0fd9f9 Camera: Prevent data size overflow
+
