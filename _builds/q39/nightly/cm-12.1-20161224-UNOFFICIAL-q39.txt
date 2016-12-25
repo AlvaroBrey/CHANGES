@@ -1,0 +1,358 @@
+===================================
+Since Sun Dec  4 12:33:48 UTC 2016
+===================================
+
+
+   * device/tcl/q39/
+76cb95f Experimental: enable VoLTE
+
+   * frameworks/base/
+2562e11 Automatic translation import
+ab52ecc Automatic translation import
+
+   * hardware/qcom/fm/
+f348c12 Automatic translation import
+50fe484 Automatic translation import
+
+   * packages/apps/AudioFX/
+d3656a1 Automatic translation import
+1f2ca86 Automatic translation import
+
+   * packages/apps/BasicSmsReceiver/
+496c665 Automatic translation import
+
+   * packages/apps/Bluetooth/
+3d524b2 Automatic translation import
+a58ec2f Automatic translation import
+
+   * packages/apps/BluetoothExt/
+98b52db Automatic translation import
+2bd7b5a Automatic translation import
+
+   * packages/apps/Browser/
+52a6f48 Automatic translation import
+d8ca5d8 Automatic translation import
+
+   * packages/apps/CMBugReport/
+cbd926d Automatic translation import
+bb5f20f Automatic translation import
+
+   * packages/apps/CMFileManager/
+ca03b92 Automatic translation import
+ec360aa Automatic translation import
+
+   * packages/apps/CMUpdater/
+d7a941d Automatic translation import
+a10c504 Automatic translation import
+
+   * packages/apps/CMWallpapers/
+49b1656 Automatic translation import
+9372a47 Automatic translation import
+
+   * packages/apps/Calculator/
+23c63dc Automatic translation import
+8e3eb03 Automatic translation import
+
+   * packages/apps/Calendar/
+07f1809 Automatic translation import
+0f59477 Automatic translation import
+
+   * packages/apps/Camera2/
+d66b8a9 Automatic translation import
+
+   * packages/apps/CellBroadcastReceiver/
+e61b60d Automatic translation import
+bb60fcf Automatic translation import
+
+   * packages/apps/CertInstaller/
+a840d4a Automatic translation import
+
+   * packages/apps/Contacts/
+db38821 Automatic translation import
+1c878cb Automatic translation import
+
+   * packages/apps/ContactsCommon/
+311763e Automatic translation import
+06032cb Automatic translation import
+
+   * packages/apps/DeskClock/
+95ddd90 Automatic translation import
+319b744 Automatic translation import
+
+   * packages/apps/Dialer/
+8697776 Automatic translation import
+c1392d3 Automatic translation import
+
+   * packages/apps/Eleven/
+2e02cfc Automatic translation import
+eff769d Automatic translation import
+
+   * packages/apps/Email/
+979186d Automatic translation import
+6e216eb Automatic translation import
+
+   * packages/apps/Exchange/
+376b4b0 Automatic translation import
+
+   * packages/apps/Gallery2/
+1e8ae8d Automatic translation import
+60ca688 Automatic translation import
+
+   * packages/apps/HTMLViewer/
+8ba9d13 Automatic translation import
+
+   * packages/apps/InCallUI/
+b77aae2 Automatic translation import
+1d11e27 Automatic translation import
+
+   * packages/apps/KeyChain/
+066dab2 Automatic translation import
+
+   * packages/apps/LockClock/
+d84b75c Automatic translation import
+f2c08d0 Automatic translation import
+
+   * packages/apps/Mms/
+69252ff Automatic translation import
+801fb3d Automatic translation import
+
+   * packages/apps/Nfc/
+bad37b3 Automatic translation import
+
+   * packages/apps/PackageInstaller/
+10652e3 Automatic translation import
+
+   * packages/apps/PhoneCommon/
+553da8a Automatic translation import
+aa0280c Automatic translation import
+
+   * packages/apps/Profiles/
+ca120de Automatic translation import
+1447189 Automatic translation import
+
+   * packages/apps/Settings/
+3957f23 Automatic translation import
+1eb3b5e Automatic translation import
+
+   * packages/apps/SetupWizard/
+4374685 Automatic translation import
+bdcf358 Automatic translation import
+
+   * packages/apps/SoundRecorder/
+8376903 Automatic translation import
+
+   * packages/apps/Stk/
+f827c30 Automatic translation import
+
+   * packages/apps/Tag/
+24d8056 Automatic translation import
+
+   * packages/apps/Terminal/
+323f110 Automatic translation import
+00086e7 Automatic translation import
+
+   * packages/apps/ThemeChooser/
+3b5c972 Automatic translation import
+45b69ff Automatic translation import
+
+   * packages/apps/Trebuchet/
+32d695d Automatic translation import
+b15856a Automatic translation import
+
+   * packages/apps/TvSettings/
+5440959 Automatic translation import
+4ddc344 Automatic translation import
+
+   * packages/apps/UnifiedEmail/
+73d885d Automatic translation import
+e06cd3c Automatic translation import
+
+   * packages/inputmethods/LatinIME/
+43b6f11 Automatic translation import
+
+   * packages/providers/CalendarProvider/
+2ee1c4a Automatic translation import
+
+   * packages/providers/ContactsProvider/
+b215ab4 Automatic translation import
+
+   * packages/providers/DownloadProvider/
+d60e046 Automatic translation import
+9b546f4 Automatic translation import
+
+   * packages/providers/MediaProvider/
+0948e46 Automatic translation import
+
+   * packages/providers/TelephonyProvider/
+2b77662 Automatic translation import
+
+   * packages/providers/ThemesProvider/
+3ac93af Automatic translation import
+dd5dc0e Automatic translation import
+
+   * packages/providers/UserDictionaryProvider/
+0bbc713 Automatic translation import
+
+   * packages/screensavers/Basic/
+f72d106 Automatic translation import
+
+   * packages/screensavers/PhotoTable/
+0f65027 Automatic translation import
+
+   * packages/services/Mms/
+e376c2c Automatic translation import
+caca3c9 Automatic translation import
+
+   * packages/services/Telecomm/
+fbfbaa8 Automatic translation import
+7de488b Automatic translation import
+
+   * packages/services/Telephony/
+608c8cd Automatic translation import
+d7de6a4 Automatic translation import
+
+   * packages/wallpapers/Basic/
+89bf4cc Automatic translation import
+9991062 Automatic translation import
+
+   * packages/wallpapers/Galaxy4/
+748026d Automatic translation import
+e8e9eaf Automatic translation import
+
+   * packages/wallpapers/HoloSpiral/
+b335c66 Automatic translation import
+b9021ef Automatic translation import
+
+   * packages/wallpapers/LivePicker/
+dbf4527 Automatic translation import
+cadc401 Automatic translation import
+
+   * packages/wallpapers/MagicSmoke/
+8693b73 Automatic translation import
+28ea5bf Automatic translation import
+
+   * packages/wallpapers/MusicVisualization/
+afbe64b Automatic translation import
+94dc69d Automatic translation import
+
+   * packages/wallpapers/NoiseField/
+5d00776 Automatic translation import
+af91ee9 Automatic translation import
+
+   * packages/wallpapers/PhaseBeam/
+c360c80 Automatic translation import
+bc20b8f Automatic translation import
+
+   * packages/wallpapers/PhotoPhase/
+e2c5513 Automatic translation import
+a8ae0ac Automatic translation import
+
+   * vendor/cm/
+15208b2 Contributors: Add maintainer for Samsung S3 Neo (s3ve3g)
+
+   * vendor/cmsdk/
+1f8f325 Automatic translation import
+5e5871e Automatic translation import
+
+===================================
+Since Sat Nov 19 18:22:37 UTC 2016
+===================================
+
+
+   * frameworks/base/
+cf70929 zygote: Allow device to append extra whitelisted paths
+
+===================================
+Since Sun Oct 30 10:41:40 UTC 2016
+===================================
+
+
+   * build/
+fb054de Update Security String to 2016-11-01 b/31618336
+
+   * external/expat/
+71c8978 Fix cast from pointer to integer of different size
+b2777c9 Security Vulnerability - CVE-2012-6702 and CVE-2016-5300
+9721a33 Fix CVE-2016-0718: Expat XML Parser Crashes on Malformed Input
+2663d96 Upgrade to expat 2.1.1
+
+   * external/jpeg/
+b245f27 libjpeg should always use jmemnobs DO NOT MERGE
+
+   * external/libvpx/
+d80513b DO NOT MERGE libvpx: Cherry-pick 8b4c315 from upstream
+07adaa6 DO NOT MERGE | libvpx: Cherry-pick 0f42d1f from upstream
+
+   * external/sepolicy/
+7e482bd Allow the zygote to stat all files it opens.
+
+   * frameworks/av/
+e895b3f IOMX: do not clear buffer if it's allocated by component
+ea35996 IOMX: allow configuration after going to loaded state
+b4b26e2 DO NOT MERGE: IOMX: work against metadata buffer spoofing
+defd60b DO NOT MERGE omx: check buffer port before using
+a41095d SoundTrigger: get service by value.
+a4b3c4e SampleIterator: clear members on seekTo error
+98d6bd6 Fix potential overflow in Visualizer effect
+79df0b3 Check mprotect result
+65a3e27 Limit mp4 atom size to something reasonable
+09a3abc libstagefright: wfd: don't use intra macroblock refresh mode on omap4
+6e79793 Allow to use baseline profile for AVC recording
+
+   * frameworks/base/
+914117c Add CMSDK resource APK to Zygote FD whitelist
+1e90c5f Fix build break due to automerge of 7d2198b5
+2cf52d2 Avoid crashing when downloading MitM'd PAC that is too big am: 7d2198b586 am: 9c1cb7a273 am: 6634e90ad7 am: 66ee2296a9
+2cac609 DO NOT MERGE: Fix deadlock in AcitivityManagerService.
+3a7dcd7 Use "all_downloads" instead of "my_downloads".
+3a4e37b Fix setPairingConfirmation permissions issue (2/2)
+4ad527d Prevent FDs from being leaked when accepted sockets are closed
+0a82db8 Backport changes to whitelist sockets opened by the zygote.
+74a2716 DO NOT MERGE) ExifInterface: Make saveAttributes throw an exception before change
+0a77aa4 DO NOT MERGE Check caller for sending media key to global priority session
+
+   * hardware/qcom/audio-caf/msm8916/
+ae92537 Fix potential overflow in Visualizer effect
+
+   * hardware/qcom/audio-caf/msm8974/
+c7765a7 Fix potential overflow in Visualizer effect
+
+   * hardware/qcom/audio-caf/msm8994/
+8db8a1f Fix potential overflow in Visualizer effect
+
+   * hardware/qcom/audio/default/
+8a75932 Fix potential overflow in Visualizer effect
+
+   * hardware/qcom/media-caf/msm8960/
+56a3bab Add dest length parameter to utf16_to_utf8
+
+   * hardware/ti/omap4/
+48e27c9 omap4: Fix screencast
+
+   * libcore/
+98abbaf IDN: Fix handling of long domain names.
+0cea345 System: Close log sockets prior to a fork.
+
+   * packages/apps/Bluetooth/
+e7095a7 Fix setPairingConfirmation permissions issue (1/2)
+
+   * packages/providers/DownloadProvider/
+2e51b32 Enforce calling identity before clearing.
+
+   * system/core/
+5479772 libzipfile: add additional validity checks.
+8dc5fd6 liblog: add __android_log_close()
+
+   * system/media/
+3047f5d Fix potential overflow in Visualizer effect
+
+===================================
+Since Sun Oct 30 10:41:40 UTC 2016
+===================================
+
+
+===================================
+Since Sat Oct 15 12:37:36 UTC 2016
+===================================
+
+
