@@ -1,0 +1,97 @@
+===================================
+Since Thu Mar 30 00:00:00 UTC 2017
+===================================
+
+
+   * android/
+cf49fbb Sync infra-related projects
+
+   * device/zuk/z2_plus/
+e86ef80 overlay: Remove duplicate "double tap power for camera" setting.
+ef78b65 z2_plus: Kill BOARD_HAS_LARGE_FILESYSTEM
+54e6b79 z2_plus: Move ro.product.first_api_level to system.prop
+70e989b Move camera configs to vendor
+fd75e6d Revert "sepolicy: Address some more denials"
+
+   * frameworks/av/
+eb594c4 Revert "Revert "mediacodec: minijail: Enable exporting of policy files""
+
+   * frameworks/base/
+9d85a42 Fix permission description string for DE.
+
+   * hardware/qcom/audio-caf/msm8916/
+ab780a8 Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.14' into cm-14.1-caf-8916
+
+   * hardware/qcom/audio-caf/msm8994/
+d062bdc Merge remote-tracking branch 'caf/LA.BF64.1.2.3_rb1.9' into cm-14.1-caf-8994
+
+   * hardware/ti/omap4/
+86ea9e8 omap4: add more common build properties
+
+   * kernel/zuk/msm8996/
+eea1f06 Revert "Disable download mode on kernel panic"
+2c65307c drivers: staging: Update qcacld-2.0 driver
+
+   * lineage/jenkins/
+c0e379b Yu can have nougat
+
+   * lineage/mirror/
+be5da0c mirror: Add some nvidia repositories
+
+   * lineage/stats/
+9836870 tribble-tracker: add LineageOS logo as favicon
+
+   * lineage/updater/
+be36539 fix check_builds cli command
+
+   * lineage/website/
+03ed1ad www: Fix typo
+
+   * lineage/wiki/
+44d902e wiki: Using gerrit: Improve
+
+   * packages/apps/CMParts/
+9198d84 CMParts: Update quick QS pull-down summary for translation
+
+   * packages/apps/CMUpdater/
+6460e10 Fix dates of downloaded and installed builds
+
+   * packages/apps/CarrierConfig/
+8821cae Consider Q-TELECOM Greece as non-roaming
+
+   * packages/apps/CustomTiles/
+a25d845 WakelockService: Refactor
+
+   * packages/apps/Gallery2/
+54654ae Fix spelling error
+
+   * packages/apps/Snap/
+673547e CaptureUI: fix crash on setOrientation
+
+   * packages/providers/CalendarProvider/
+94029d1 New Material icon
+
+   * packages/providers/MediaProvider/
+e0e756f New Material icon
+
+   * packages/providers/TelephonyProvider/
+059380f TelephonyProvider: Update icon to Material
+
+   * packages/resources/devicesettings/
+a765ae0 Add strings for fingerprint pocketmode
+
+   * packages/services/Mms/
+de8277e Add Material icon & app label
+
+   * packages/services/Telephony/
+823aaaf Revert "Add support to launch call barring"
+
+   * packages/wallpapers/LivePicker/
+bf06fdf New Material icon
+
+   * vendor/cm/
+bb6e0e2 build: Update smali and baksmali to 2.2.0
+
+   * vendor/zuk/z2_plus/
+653bd62 Move camera configs to vendor.
+
