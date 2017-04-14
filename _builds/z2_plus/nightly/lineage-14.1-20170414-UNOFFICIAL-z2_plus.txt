@@ -1,0 +1,142 @@
+===================================
+Since Fri Apr  7 14:39:11 UTC 2017
+===================================
+
+
+   * device/zuk/z2_plus/
+7e37041 prop: Remove uneeded graphics props Not needed, makes UI/UX smooth AF
+9658f1d ramdisk: Drop aggressive load balancing
+933533f ramdisk: Fix setting sched_downmigrate value
+1f5df53 kernel: Clean up kernel cmdline  * Console is overwritten by the bootloader  * CONFIG_DEBUG_USER is disabled, so no need to keep user_debug    and the same goes for msm_rtb, which depends on CONFIG_MSM_RTB
+ef428de ramdisk: Don't set default GPU power level Let the kernel figure out the best setting!
+b91e807 z2-plus: Doze: Refactor
+9b43442 z2_plus: Doze: Perform operations as current user
+7bfd73b device.mk: Enable subsystem silent restart.
+665e181 proprietary-files: add bin/ssr_setup
+44432a5 init: Add prop for slpi restart
+e05a2f3 Translation correction
+
+   * frameworks/av/
+bcfb7ac stagefright: Remove the HAL3 limitation from the video reference clock selection
+
+   * frameworks/base/
+d234822 Revert "SystemUI: Add SlotId for MultiSim"
+
+   * frameworks/native/
+82c4726 sensorservice: Register orientation sensor if HAL doesn't provide it
+
+   * kernel/zuk/msm8996/
+f7f4213 drivers: power: Do not reboot to EDL in case of kernel panic (the return)
+45afd03 z2_plus: Preserve memory on restart
+fe8c25b power: reset: Allow device to preserve memory on restart
+e708332 gemini: Disable unwanted configs
+
+   * lineage/cve/
+2e802b1 cvetracker: Add grouper to grouper kernel
+
+   * lineage/jenkins/
+96e020e hudson: Kill D2
+
+   * lineage/mirror/
+471449d mirror: Updated to 10-Apr-17 06:30:00 UTC
+
+   * lineage/stats/
+bb7e276 Enable stats dumps to json
+
+   * lineage/website/
+92b99f5 Add gemfile for jenkins deployments
+
+   * lineage/wiki/
+eada6f2 devices: lettuce and tomato now on 14.1
+
+   * packages/apps/CMParts/
+f9c8771 PerfProfileSettings: Update slider on powersave mode change
+
+   * packages/apps/CMUpdater/
+a70b0a2 Show update frequency option when download list is empty
+
+   * packages/apps/Snap/
+2ecc334 CameraControls: Toggle the status of disabled views
+
+   * packages/services/Telephony/
+d0f7c5f telephony: fix crash when missing simcard
+
+   * vendor/cm/
+5efa4cb Add email app to device idle whitelist.
+
+   * vendor/cmsdk/
+4b14ba4 PerformanceManager: Don't override the user preference
+
+   * vendor/zuk/z2_plus/
+3495238 Import ssr_setup from marlin.
+
+===================================
+Since Thu Mar 30 00:00:00 UTC 2017
+===================================
+
+
+   * android/
+cf49fbb Sync infra-related projects
+
+   * device/zuk/z2_plus/
+e86ef80 overlay: Remove duplicate "double tap power for camera" setting.
+ef78b65 z2_plus: Kill BOARD_HAS_LARGE_FILESYSTEM
+54e6b79 z2_plus: Move ro.product.first_api_level to system.prop
+70e989b Move camera configs to vendor
+fd75e6d Revert "sepolicy: Address some more denials"
+
+   * hardware/qcom/audio-caf/msm8916/
+ab780a8 Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.14' into cm-14.1-caf-8916
+
+   * hardware/qcom/audio-caf/msm8994/
+d062bdc Merge remote-tracking branch 'caf/LA.BF64.1.2.3_rb1.9' into cm-14.1-caf-8994
+
+   * hardware/qcom/media-caf/msm8960/
+f462f4d mm-video-v4l2: vdec: add safety checks for freeing buffers
+
+   * hardware/ti/omap4/
+86ea9e8 omap4: add more common build properties
+
+   * kernel/zuk/msm8996/
+eea1f06 Revert "Disable download mode on kernel panic"
+2c65307c drivers: staging: Update qcacld-2.0 driver
+
+   * lineage/updater/
+be36539 fix check_builds cli command
+
+   * packages/apps/Bluetooth/
+cca216e Revert "Bluetooth: handle opening incoming APK files"
+
+   * packages/apps/CarrierConfig/
+8821cae Consider Q-TELECOM Greece as non-roaming
+
+   * packages/apps/CellBroadcastReceiver/
+fa4d7a7 CellBroadcastReceiver: fix channel 50 not disabling
+
+   * packages/apps/CustomTiles/
+a25d845 WakelockService: Refactor
+
+   * packages/apps/Gallery2/
+54654ae Fix spelling error
+
+   * packages/providers/CalendarProvider/
+94029d1 New Material icon
+
+   * packages/providers/MediaProvider/
+e0e756f New Material icon
+
+   * packages/providers/TelephonyProvider/
+059380f TelephonyProvider: Update icon to Material
+
+   * packages/resources/devicesettings/
+a765ae0 Add strings for fingerprint pocketmode
+
+   * packages/services/Mms/
+de8277e Add Material icon & app label
+
+   * packages/wallpapers/LivePicker/
+bf06fdf New Material icon
+
+   * vendor/zuk/z2_plus/
+653bd62 Move camera configs to vendor.
+
