@@ -1,0 +1,393 @@
+===================================
+Since vie abr 14 20:05:04 UTC 2017
+===================================
+
+
+   * device/zuk/z2_plus/
+c4e4f01 [DO NOT CHERRY PICK] Add custom OTA URI
+
+   * frameworks/base/
+1cd6110 SystemUI:Notification bar custom notification display problems
+
+   * hardware/qcom/audio-caf/msm8916/
+41cd40d Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.15' into cm-14.1-caf-8916
+
+   * hardware/qcom/audio-caf/msm8994/
+ce39c30 Merge remote-tracking branch 'caf/LA.BF64.1.2.3_rb1.12' into cm-14.1-caf-8994
+
+   * hardware/qcom/media-caf/msm8994/
+5f3d105 Merge remote-tracking branch 'caf/LA.BF64.1.2.3_rb1.12' into cm-14.1-caf-8994
+
+   * lineage/crowdin/
+ce3a685 config: cm-14.1: Add plurals.xml to CMParts
+
+   * lineage/jenkins/
+de93623 hudson: Remove klteusc from build roster
+
+   * lineage/mirror/
+c30b8cb Updated to 18-Apr-17 21:01:51 UTC
+
+   * lineage/website/
+20f5170 Last couple of weeks at LineageOS (W/C 3rd April)
+
+   * lineage/wiki/
+e32db64 devices: sony: Fix download_boot informations for fastboot
+
+   * system/bt/
+d17396c bt: fix build for non-BLE after the 7.1.2 merge
+
+   * system/extras/
+b5332df Update verity_verifier from master branch
+
+   * vendor/cm/
+5b33c6c Add target to make a flashable su addon
+
+===================================
+Since vie abr  7 14:39:11 UTC 2017
+===================================
+
+
+   * build/
+96efb21 build: allow to disable recovery-two-step.img generation
+
+   * device/zuk/z2_plus/
+7e37041 prop: Remove uneeded graphics props Not needed, makes UI/UX smooth AF
+9658f1d ramdisk: Drop aggressive load balancing
+933533f ramdisk: Fix setting sched_downmigrate value
+1f5df53 kernel: Clean up kernel cmdline  * Console is overwritten by the bootloader  * CONFIG_DEBUG_USER is disabled, so no need to keep user_debug    and the same goes for msm_rtb, which depends on CONFIG_MSM_RTB
+ef428de ramdisk: Don't set default GPU power level Let the kernel figure out the best setting!
+b91e807 z2-plus: Doze: Refactor
+9b43442 z2_plus: Doze: Perform operations as current user
+7bfd73b device.mk: Enable subsystem silent restart.
+665e181 proprietary-files: add bin/ssr_setup
+44432a5 init: Add prop for slpi restart
+e05a2f3 Translation correction
+
+   * frameworks/av/
+4a98590 stagefright: Fix SurfaceMediaSource buffer search condition when buffer return
+
+   * frameworks/native/
+e7456d6 sensorservice: Register orientation sensor if HAL doesn't provide it
+
+   * hardware/qcom/audio/default/
+2627639 msm8960: define HFP_ASM_RX_TX 24
+
+   * hardware/qcom/display-caf/msm8960/
+09cce1b hwcomposer: Fix regression in hwc_sync
+
+   * kernel/zuk/msm8996/
+f7f4213 drivers: power: Do not reboot to EDL in case of kernel panic (the return)
+45afd03 z2_plus: Preserve memory on restart
+fe8c25b power: reset: Allow device to preserve memory on restart
+e708332 gemini: Disable unwanted configs
+
+   * lineage/cve/
+2e802b1 cvetracker: Add grouper to grouper kernel
+
+   * lineage/stats/
+bb7e276 Enable stats dumps to json
+
+   * lineage/updater/
+fb1b2fa Unify Galaxy Note 2 Korean variants
+
+   * packages/apps/Bluetooth/
+dd3c70c Revert "Bluetooth: handle opening incoming APK files"
+
+   * packages/apps/CMParts/
+f9c8771 PerfProfileSettings: Update slider on powersave mode change
+
+   * packages/apps/CMUpdater/
+a70b0a2 Show update frequency option when download list is empty
+
+   * packages/apps/CarrierConfig/
+fd64a03 Consider O2 and E-Plus as non-roaming
+
+   * packages/apps/CellBroadcastReceiver/
+4c0252f CellBroadcastReceiver: fix channel 50 not disabling
+
+   * packages/apps/Gallery2/
+aad548e Gallery2: support the newly added media file types in MTP mode
+
+   * packages/apps/Nfc/
+3090980 Nfc: Include android-support-v4 for the NXP stack
+
+   * packages/apps/Snap/
+5ebf49f Fix some inconsistencies of the HDR button
+
+   * packages/providers/ContactsProvider/
+8546493 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * packages/services/Telephony/
+33e790d VoicemailSettingsActivity: Fix NPE
+
+   * vendor/cmsdk/
+4b14ba4 PerformanceManager: Don't override the user preference
+
+   * vendor/zuk/z2_plus/
+3495238 Import ssr_setup from marlin.
+
+===================================
+Since jue mar 30 00:00:00 UTC 2017
+===================================
+
+
+   * android/
+51ac04c manifest: android-7.1.1_r25 -> android-7.1.2_r2
+
+   * art/
+3442967 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * bionic/
+8cb6a7f Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * bootable/recovery/
+85137c6 Fix "ordered comparison between pointer and zero".
+
+   * dalvik/
+0931a6d Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * development/
+01b86c8 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * device/zuk/z2_plus/
+e86ef80 overlay: Remove duplicate "double tap power for camera" setting.
+ef78b65 z2_plus: Kill BOARD_HAS_LARGE_FILESYSTEM
+54e6b79 z2_plus: Move ro.product.first_api_level to system.prop
+70e989b Move camera configs to vendor
+fd75e6d Revert "sepolicy: Address some more denials"
+
+   * external/aac/
+7839072 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * external/boringssl/
+fac9c96 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * external/flac/
+e61e7f6 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * external/icu/
+3b0dd8c Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * external/ipsec-tools/
+7112b87 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * external/libnfc-nci/
+4b14f27 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * external/okhttp/
+ff9ca1d Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * external/openssh/
+4ca20f2 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * external/skia/
+a4313f6 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * external/tinyalsa/
+976d8f1 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * external/toybox/
+9118558 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * frameworks/opt/chips/
+67e8438 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * frameworks/opt/datetimepicker/
+190333c Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * frameworks/opt/net/ims/
+695c853 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * frameworks/opt/net/wifi/
+f0223d5 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * frameworks/opt/telephony/
+a17ff1d Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * frameworks/opt/vcard/
+7adc1b5 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * frameworks/support/
+5a832ea Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * hardware/broadcom/libbt/
+971ddae Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * hardware/broadcom/wlan/
+d01e9ab Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * hardware/intel/common/libmix/
+97e15b8 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * hardware/intel/common/omx-components/
+162d95b Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * hardware/intel/img/hwcomposer/
+667d537 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * hardware/intel/img/psb_video/
+0ab4bdd Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * hardware/libhardware/
+0502004 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * hardware/qcom/bootctrl/
+b1c3f1e Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * hardware/qcom/bt/
+7a172ce Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * hardware/qcom/camera/
+d228805 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * hardware/qcom/display/
+85ca03c Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * hardware/qcom/gps/
+05f4309 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * hardware/qcom/media/
+f55a6c6 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * hardware/qcom/media-caf/msm8960/
+f462f4d mm-video-v4l2: vdec: add safety checks for freeing buffers
+
+   * hardware/ril/
+8395771 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * hardware/ti/omap4/
+86ea9e8 omap4: add more common build properties
+
+   * kernel/zuk/msm8996/
+eea1f06 Revert "Disable download mode on kernel panic"
+2c65307c drivers: staging: Update qcacld-2.0 driver
+
+   * libcore/
+e558f0c Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * packages/apps/Browser/
+06a318d Browser: Import incognito_mode_start_page resources
+
+   * packages/apps/Camera2/
+be7d826 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * packages/apps/CertInstaller/
+74f4e7c Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * packages/apps/Contacts/
+0914fcf Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * packages/apps/ContactsCommon/
+eb136ca Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * packages/apps/CustomTiles/
+a25d845 WakelockService: Refactor
+
+   * packages/apps/DeskClock/
+bd88268 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * packages/apps/Dialer/
+c28fe06 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * packages/apps/Email/
+d01f0b1 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * packages/apps/EmergencyInfo/
+4a8665b Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * packages/apps/ExactCalculator/
+ebd3292 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * packages/apps/KeyChain/
+d73b072 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * packages/apps/ManagedProvisioning/
+76743b7 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * packages/apps/Messaging/
+359ba71 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * packages/apps/PackageInstaller/
+4f8e6f1 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * packages/apps/PhoneCommon/
+3d5ba21 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * packages/apps/Settings/
+195d7aa Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * packages/apps/Stk/
+603a448 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * packages/apps/StorageManager/
+22db4fe Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * packages/apps/TvSettings/
+3888b9f Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * packages/apps/UnifiedEmail/
+49f6bb5 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * packages/apps/WallpaperPicker/
+215e79e Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * packages/inputmethods/LatinIME/
+ee8c161 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * packages/providers/CalendarProvider/
+94029d1 New Material icon
+
+   * packages/providers/DownloadProvider/
+2b3bdb8 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * packages/providers/MediaProvider/
+ac8813a Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * packages/providers/TelephonyProvider/
+b41830a Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * packages/providers/TvProvider/
+c5f6aee Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * packages/providers/UserDictionaryProvider/
+eba8a64 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * packages/resources/devicesettings/
+a765ae0 Add strings for fingerprint pocketmode
+
+   * packages/screensavers/PhotoTable/
+5270983 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * packages/services/Car/
+fa9aa42 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * packages/services/Mms/
+80580cd Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * packages/services/Telecomm/
+7099d76 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * packages/wallpapers/LivePicker/
+7a9f23d Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * system/core/
+e40b34d Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * system/keymaster/
+bfd6d4a Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * system/media/
+0886686 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * system/netd/
+17c1f5c Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * system/security/
+a125888 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * system/sepolicy/
+4a2af22 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * system/vold/
+4bc1c8f Merge tag 'android-7.1.2_r2' into cm-14.1
+
