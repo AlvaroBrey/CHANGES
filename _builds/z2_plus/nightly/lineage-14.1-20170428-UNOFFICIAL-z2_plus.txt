@@ -1,0 +1,488 @@
+===================================
+Since jue abr 20 20:02:06 UTC 2017
+===================================
+
+
+   * android/
+12f1ffd Manifest : Stop syncing blank intel sensor repo.
+
+   * device/zuk/z2_plus/
+2221379 [DO NOT CHERRY PICK] Add custom OTA URI
+
+   * external/stagefright-plugins/
+3846013 Revert "codecs: Disable AC3/EAC3"
+
+   * frameworks/base/
+3de2807 SystemUI: Use AOSP AutoBrightness implementation
+
+   * frameworks/opt/telephony/
+bc43228 Create cdma dummy apns.
+
+   * hardware/qcom/audio-caf/msm8996/
+6bace74 msm8996: audio: Add l/r mic swapping when using stereo mics
+
+   * hardware/qcom/fm/
+51e71fd libfm_jni: Fix strchr implicit char* typecast in ConfFileParser
+
+   * lineage/ansible/
+b980733 Include lzop and lz4 on build systems
+
+   * lineage/crowdin/
+4e67ee2 config: cm-14.1: Add missing dash to fix sync of CMParts
+
+   * lineage/jenkins/
+e28728a hudson: Add more V20 variants
+
+   * lineage/mirror/
+2d24faf mirror: Updated to 27-Apr-17 14:40 UTC
+
+   * lineage/updater/
+ff8cba2 Regenerate device dependencies
+
+   * lineage/wiki/
+51769d8 Update costs, add paypal
+
+   * packages/apps/Dialer/
+8604a37 InCallUI: Don't force enable the prox sensor for incoming calls
+
+   * packages/apps/Gallery2/
+1f0ec6e Revert "Gallery2: hide navigation bar when we turn off lights"
+
+   * packages/apps/Settings/
+df80559 Revert "Settings: Lost cached BT devices in found devices list"
+
+   * packages/apps/Trebuchet/
+29b0b0a Trebuchet: lineage launcher icon
+
+   * packages/resources/devicesettings/
+dccf644 Automatic translation import
+
+   * vendor/cmsdk/
+117d242 Protect system profiles related broadcasts
+
+   * vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider/
+d0d6665 Automatic translation import
+
+===================================
+Since vie abr 14 20:05:04 UTC 2017
+===================================
+
+
+   * external/boringssl/
+84b7017 Make CRYPTO_is_NEON_capable aware of the buggy CPU.
+
+   * external/libchrome/
+dc9036a Disable all NEON in BoringSSL if has_broken_neon is set.
+
+   * frameworks/opt/net/wifi/
+05213b9 Disqualify non-preferred band for both 2.4 and 5GHz
+
+   * hardware/libhardware_legacy/
+372a36e wifi: Change USES_TI_MAC80211 to a BoardConfig flag
+
+   * hardware/qcom/audio-caf/msm8916/
+41cd40d Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.15' into cm-14.1-caf-8916
+
+   * hardware/qcom/audio-caf/msm8994/
+ce39c30 Merge remote-tracking branch 'caf/LA.BF64.1.2.3_rb1.12' into cm-14.1-caf-8994
+
+   * hardware/qcom/display-caf/msm8994/
+434068f Fix duplicate copy file rules
+
+   * hardware/qcom/media-caf/msm8994/
+5f3d105 Merge remote-tracking branch 'caf/LA.BF64.1.2.3_rb1.12' into cm-14.1-caf-8994
+
+   * lineage/website/
+20f5170 Last couple of weeks at LineageOS (W/C 3rd April)
+
+   * packages/apps/AudioFX/
+c22088c Automatic translation import
+
+   * packages/apps/Bluetooth/
+f567929 Automatic translation import
+
+   * packages/apps/Browser/
+daa40d1 Automatic translation import
+
+   * packages/apps/CMBugReport/
+8a4fb41 Automatic translation import
+
+   * packages/apps/CMParts/
+6c08995 Automatic translation import
+
+   * packages/apps/CMUpdater/
+835e6bf Automatic translation import
+
+   * packages/apps/Calendar/
+cabf3f5 Automatic translation import
+
+   * packages/apps/Camera2/
+19537ec Automatic translation import
+
+   * packages/apps/CellBroadcastReceiver/
+c5318ec Automatic translation import
+
+   * packages/apps/Contacts/
+0d6c369 Automatic translation import
+
+   * packages/apps/ContactsCommon/
+2b22e18 Automatic translation import
+
+   * packages/apps/CustomTiles/
+39732b7 Automatic translation import
+
+   * packages/apps/DeskClock/
+9e20cdf Automatic translation import
+
+   * packages/apps/Eleven/
+f4cab90 Automatic translation import
+
+   * packages/apps/Email/
+7c7d90c Automatic translation import
+
+   * packages/apps/EmergencyInfo/
+985550c Automatic translation import
+
+   * packages/apps/FMRadio/
+f0d11a0 Automatic translation import
+
+   * packages/apps/FlipFlap/
+52090f5 Automatic translation import
+
+   * packages/apps/Gello/
+2cbe2dd Automatic translation import
+
+   * packages/apps/LockClock/
+552041b Automatic translation import
+
+   * packages/apps/Messaging/
+b3fc116 Automatic translation import
+
+   * packages/apps/PhoneCommon/
+df09655 Automatic translation import
+
+   * packages/apps/Profiles/
+5f9b3b1 Automatic translation import
+
+   * packages/apps/Recorder/
+9ab0326 Automatic translation import
+
+   * packages/apps/SetupWizard/
+e8e7a54 Automatic translation import
+
+   * packages/apps/Snap/
+58fa0bd Automatic translation import
+
+   * packages/apps/Stk/
+726621f Automatic translation import
+
+   * packages/apps/Terminal/
+b3167ed Automatic translation import
+
+   * packages/apps/ThemeChooser/
+3fa04c4 Automatic translation import
+
+   * packages/apps/TvSettings/
+86a5055 Automatic translation import
+
+   * packages/apps/UnifiedEmail/
+fdb59c7 Automatic translation import
+
+   * packages/inputmethods/LatinIME/
+e443900 Automatic translation import
+
+   * packages/providers/ContactsProvider/
+3151496 Automatic translation import
+
+   * packages/providers/DataUsageProvider/
+16bd17e Automatic translation import
+
+   * packages/providers/DownloadProvider/
+6b65be9 Automatic translation import
+
+   * packages/providers/ThemesProvider/
+b8d4369 Automatic translation import
+
+   * packages/providers/WeatherProvider/
+187ce37 Automatic translation import
+
+   * packages/services/CMAudioService/
+f9a30eb Automatic translation import
+
+   * packages/services/LiveLockScreenService/
+5d6b6ee Automatic translation import
+
+   * packages/services/Telecomm/
+99aef23 Automatic translation import
+
+   * packages/services/Telephony/
+85eeeb3 Automatic translation import
+
+   * packages/services/ThemeManagerService/
+2f285e8 Automatic translation import
+
+   * packages/services/WeatherService/
+3049526 Automatic translation import
+
+   * system/bt/
+d17396c bt: fix build for non-BLE after the 7.1.2 merge
+
+   * system/extras/
+b5332df Update verity_verifier from master branch
+
+   * vendor/cm/
+5b33c6c Add target to make a flashable su addon
+
+   * vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
+125dd91 Automatic translation import
+
+===================================
+Since vie abr  7 14:39:11 UTC 2017
+===================================
+
+
+   * build/
+5bcb8b7 build: fix verity generation
+
+   * device/zuk/z2_plus/
+7e37041 prop: Remove uneeded graphics props Not needed, makes UI/UX smooth AF
+9658f1d ramdisk: Drop aggressive load balancing
+933533f ramdisk: Fix setting sched_downmigrate value
+1f5df53 kernel: Clean up kernel cmdline  * Console is overwritten by the bootloader  * CONFIG_DEBUG_USER is disabled, so no need to keep user_debug    and the same goes for msm_rtb, which depends on CONFIG_MSM_RTB
+ef428de ramdisk: Don't set default GPU power level Let the kernel figure out the best setting!
+b91e807 z2-plus: Doze: Refactor
+9b43442 z2_plus: Doze: Perform operations as current user
+7bfd73b device.mk: Enable subsystem silent restart.
+665e181 proprietary-files: add bin/ssr_setup
+44432a5 init: Add prop for slpi restart
+e05a2f3 Translation correction
+
+   * frameworks/av/
+4a98590 stagefright: Fix SurfaceMediaSource buffer search condition when buffer return
+
+   * frameworks/native/
+e7456d6 sensorservice: Register orientation sensor if HAL doesn't provide it
+
+   * hardware/qcom/audio/default/
+2627639 msm8960: define HFP_ASM_RX_TX 24
+
+   * hardware/qcom/display-caf/msm8960/
+09cce1b hwcomposer: Fix regression in hwc_sync
+
+   * kernel/zuk/msm8996/
+f7f4213 drivers: power: Do not reboot to EDL in case of kernel panic (the return)
+45afd03 z2_plus: Preserve memory on restart
+fe8c25b power: reset: Allow device to preserve memory on restart
+e708332 gemini: Disable unwanted configs
+
+   * lineage/cve/
+2e802b1 cvetracker: Add grouper to grouper kernel
+
+   * lineage/stats/
+bb7e276 Enable stats dumps to json
+
+   * packages/apps/CarrierConfig/
+fd64a03 Consider O2 and E-Plus as non-roaming
+
+   * packages/apps/Nfc/
+3090980 Nfc: Include android-support-v4 for the NXP stack
+
+   * vendor/zuk/z2_plus/
+3495238 Import ssr_setup from marlin.
+
+===================================
+Since jue mar 30 00:00:00 UTC 2017
+===================================
+
+
+   * art/
+3442967 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * bionic/
+8cb6a7f Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * bootable/recovery/
+85137c6 Fix "ordered comparison between pointer and zero".
+
+   * dalvik/
+0931a6d Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * development/
+01b86c8 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * device/zuk/z2_plus/
+e86ef80 overlay: Remove duplicate "double tap power for camera" setting.
+ef78b65 z2_plus: Kill BOARD_HAS_LARGE_FILESYSTEM
+54e6b79 z2_plus: Move ro.product.first_api_level to system.prop
+70e989b Move camera configs to vendor
+fd75e6d Revert "sepolicy: Address some more denials"
+
+   * external/aac/
+7839072 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * external/flac/
+e61e7f6 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * external/icu/
+3b0dd8c Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * external/ipsec-tools/
+7112b87 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * external/libnfc-nci/
+4b14f27 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * external/okhttp/
+ff9ca1d Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * external/openssh/
+4ca20f2 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * external/skia/
+a4313f6 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * external/tinyalsa/
+976d8f1 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * external/toybox/
+9118558 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * frameworks/opt/chips/
+67e8438 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * frameworks/opt/datetimepicker/
+190333c Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * frameworks/opt/net/ims/
+695c853 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * frameworks/opt/vcard/
+7adc1b5 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * frameworks/support/
+5a832ea Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * hardware/broadcom/libbt/
+971ddae Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * hardware/broadcom/wlan/
+d01e9ab Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * hardware/intel/common/libmix/
+97e15b8 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * hardware/intel/common/omx-components/
+162d95b Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * hardware/intel/img/hwcomposer/
+667d537 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * hardware/intel/img/psb_video/
+0ab4bdd Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * hardware/libhardware/
+0502004 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * hardware/qcom/bootctrl/
+b1c3f1e Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * hardware/qcom/bt/
+7a172ce Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * hardware/qcom/camera/
+d228805 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * hardware/qcom/display/
+85ca03c Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * hardware/qcom/gps/
+05f4309 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * hardware/qcom/media/
+f55a6c6 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * hardware/qcom/media-caf/msm8960/
+f462f4d mm-video-v4l2: vdec: add safety checks for freeing buffers
+
+   * hardware/ril/
+8395771 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * hardware/ti/omap4/
+86ea9e8 omap4: add more common build properties
+
+   * kernel/zuk/msm8996/
+eea1f06 Revert "Disable download mode on kernel panic"
+2c65307c drivers: staging: Update qcacld-2.0 driver
+
+   * libcore/
+e558f0c Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * packages/apps/CertInstaller/
+74f4e7c Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * packages/apps/ExactCalculator/
+ebd3292 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * packages/apps/KeyChain/
+d73b072 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * packages/apps/ManagedProvisioning/
+76743b7 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * packages/apps/PackageInstaller/
+4f8e6f1 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * packages/apps/StorageManager/
+22db4fe Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * packages/apps/WallpaperPicker/
+215e79e Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * packages/providers/CalendarProvider/
+94029d1 New Material icon
+
+   * packages/providers/MediaProvider/
+ac8813a Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * packages/providers/TelephonyProvider/
+b41830a Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * packages/providers/TvProvider/
+c5f6aee Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * packages/providers/UserDictionaryProvider/
+eba8a64 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * packages/screensavers/PhotoTable/
+5270983 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * packages/services/Car/
+fa9aa42 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * packages/services/Mms/
+80580cd Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * packages/wallpapers/LivePicker/
+7a9f23d Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * system/core/
+e40b34d Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * system/keymaster/
+bfd6d4a Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * system/media/
+0886686 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * system/netd/
+17c1f5c Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * system/security/
+a125888 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * system/sepolicy/
+4a2af22 Merge tag 'android-7.1.2_r2' into cm-14.1
+
+   * system/vold/
+4bc1c8f Merge tag 'android-7.1.2_r2' into cm-14.1
+
