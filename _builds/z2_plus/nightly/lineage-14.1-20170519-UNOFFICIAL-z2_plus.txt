@@ -1,0 +1,325 @@
+===================================
+Since sáb may 13 16:06:33 UTC 2017
+===================================
+
+
+   * build/
+a47d7ee Revert "Revert "ota: Remove cruft we don't care about""
+
+   * device/zuk/z2_plus/
+cbf8962 audio: Import zui 2.5.075_170324 audio config
+
+   * frameworks/native/
+c68520a sensorservice: Fix orientation sensor for HAL's missing rotation vector sensor
+
+   * hardware/qcom/audio-caf/msm8996/
+6e8e9c5 Merge tag 'LA.UM.5.5.r1-04600-8x96.0' into HEAD
+
+   * hardware/qcom/display-caf/msm8996/
+332f57a Merge tag 'LA.UM.5.5.r1-04600-8x96.0' into HEAD
+
+   * hardware/qcom/media-caf/msm8996/
+87965a0 Merge tag 'LA.UM.5.5.r1-04600-8x96.0' into HEAD
+
+   * kernel/zuk/msm8996/
+2133b25 kernel: Only expose su when daemon is running
+
+   * lineage/ansible/
+5a17835 update cve tracker config
+
+   * lineage/contributors-cloud-generator/
+477f0ba Bump DEFAULT_SIZE to 1880
+
+   * lineage/cve/
+6098aac Regenerate kernel->device mappings
+
+   * lineage/jenkins/
+ddf33de Move xt897 (Photon Q) to 14.1
+
+   * lineage/mirror/
+a2adc03 Updated to 17-May-2017 06:38:41 UTC
+
+   * lineage/scripts/
+e0f5ea8 Add capability for checking CVE json
+
+   * lineage/stats/
+1c89d61 migration: no_cache is required due to memory overhead
+
+   * lineage/updater/
+b114a0f Remove common repos with no dependencies from JSON
+
+   * lineage/website/
+1c566de CVE tracker isn't ready for spotlight
+
+   * lineage/wiki/
+c0934c3 devices: Fix typo on CPU type
+
+   * packages/apps/AudioFX/
+e696bf0 AudioFX: Fix choppy preset transitions
+
+   * packages/apps/CMParts/
+e3457ee Update contributors cloud
+
+   * packages/apps/Jelly/
+eab04da Jelly: lint cleanup
+
+   * system/keymaster/
+a1bbfc0 Fix bugs regarding KeyStore::isHardwareBacked always returning true.
+
+   * system/sepolicy/
+ec269cc Allow recovery to alter / on userdebug/eng builds
+
+   * vendor/cm/
+65f03f1 extract_utils: fix extracting XML files containing binary characters
+
+===================================
+Since vie may  5 08:18:36 UTC 2017
+===================================
+
+
+   * android/
+f9ffaa1 cm: Remove Gello
+
+   * external/chromium-webview/
+b544e48 Update README
+
+   * frameworks/base/
+12f0903 SystemUI: Add tunable for auto brightness icon
+
+   * hardware/qcom/audio-caf/msm8937/
+99617f9 Configs: remove audio sink buffer size property
+
+   * hardware/qcom/display/
+03afd10 hwc2: Only set display_width and display_height when equal to zero
+
+   * hardware/qcom/display-caf/msm8937/
+b7a3010 display: Add color metadata definition
+
+   * hardware/qcom/media-caf/msm8937/
+de0c52e media: libOmxSw encoders require prop headers :(
+
+   * packages/apps/DeskClock/
+3f87ce6 DeskClock: Use accelerometer instead of orientation sensor
+
+   * packages/apps/Snap/
+31499ec Snap: Fix crash switching from back to front cam in video mode
+
+   * system/core/
+28cbdd1 Revert "init.rc: set initial cpuset to all cores"
+
+   * vendor/cmsdk/
+2b1cf2b cmsdk: Add CMSettings option for QS auto brightness
+
+===================================
+Since vie abr 28 08:07:47 UTC 2017
+===================================
+
+
+   * art/
+8b0b730 runtime: arch: support kryo for 32 bit
+
+   * bionic/
+22d6b5b libc: ARM: Add 32-bit Kryo memcpy
+
+   * bootable/recovery/
+616bf9a recovery: Fix event system
+
+   * device/qcom/common/
+0dc3673 recovery: Use project pathmap for recovery
+
+   * external/boringssl/
+8f156df Merge tag 'android-7.1.2_r8' into cm-14.1
+
+   * frameworks/av/
+faa8b85 seccomp: Fix policy for ffmpeg
+
+   * hardware/libhardware_legacy/
+ec33ac3 wifi: add firmware loader support for the non-LKM case
+
+   * hardware/qcom/fm/
+d17952e Automatic translation import
+
+   * hardware/qcom/media-caf/apq8084/
+b49f2c0 Fix duplicated OMX.qcom.audio.decoder.aac entry
+
+   * lineage/crowdin/
+e7d8cf6 config: cm-14.1: add Jelly, remove Browser
+
+   * packages/apps/CMUpdater/
+dc6bdeb Automatic translation import
+
+   * packages/apps/CellBroadcastReceiver/
+b7d1a8b Automatic translation import
+
+   * packages/apps/Contacts/
+ecc144c Automatic translation import
+
+   * packages/apps/CustomTiles/
+7c2b32d Automatic translation import
+
+   * packages/apps/Dialer/
+d5d1e69 Automatic translation import
+
+   * packages/apps/FlipFlap/
+a2a3357 Automatic translation import
+
+   * packages/apps/Gallery2/
+ed6763f Automatic translation import
+
+   * packages/apps/PhoneCommon/
+be5e9c9 Automatic translation import
+
+   * packages/apps/Recorder/
+9b9c5c9 Automatic translation import
+
+   * packages/apps/Settings/
+3ad29eb Automatic translation import
+
+   * packages/apps/SetupWizard/
+8518aa3 Automatic translation import
+
+   * packages/apps/Trebuchet/
+c69c736 Trebuchet: Add Jelly to hotseat
+
+   * packages/resources/devicesettings/
+55faa1d Automatic translation import
+
+   * system/bt/
+0ebf465 Do not include the trailing NULL from the C-String in the SDP service name
+
+   * system/extras/
+f30ae7f Use project pathmap for recovery
+
+   * system/extras/su/
+7344440 su: Don't start daemon for adb only mode
+
+   * vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
+5de40fe Automatic translation import
+
+===================================
+Since jue abr 20 20:02:06 UTC 2017
+===================================
+
+
+   * external/openssh/
+f42513e Revert SSHDIR to /data/ssh
+
+   * external/stagefright-plugins/
+3846013 Revert "codecs: Disable AC3/EAC3"
+
+   * frameworks/opt/telephony/
+bc43228 Create cdma dummy apns.
+
+   * vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider/
+d0d6665 Automatic translation import
+
+===================================
+Since vie abr 14 20:05:04 UTC 2017
+===================================
+
+
+   * external/libchrome/
+dc9036a Disable all NEON in BoringSSL if has_broken_neon is set.
+
+   * frameworks/opt/net/wifi/
+05213b9 Disqualify non-preferred band for both 2.4 and 5GHz
+
+   * hardware/qcom/audio-caf/msm8916/
+41cd40d Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.15' into cm-14.1-caf-8916
+
+   * hardware/qcom/audio-caf/msm8994/
+ce39c30 Merge remote-tracking branch 'caf/LA.BF64.1.2.3_rb1.12' into cm-14.1-caf-8994
+
+   * hardware/qcom/display-caf/msm8994/
+434068f Fix duplicate copy file rules
+
+   * hardware/qcom/media-caf/msm8994/
+5f3d105 Merge remote-tracking branch 'caf/LA.BF64.1.2.3_rb1.12' into cm-14.1-caf-8994
+
+   * packages/apps/Bluetooth/
+f567929 Automatic translation import
+
+   * packages/apps/CMBugReport/
+8a4fb41 Automatic translation import
+
+   * packages/apps/Calendar/
+cabf3f5 Automatic translation import
+
+   * packages/apps/Camera2/
+19537ec Automatic translation import
+
+   * packages/apps/ContactsCommon/
+2b22e18 Automatic translation import
+
+   * packages/apps/Eleven/
+f4cab90 Automatic translation import
+
+   * packages/apps/Email/
+7c7d90c Automatic translation import
+
+   * packages/apps/EmergencyInfo/
+985550c Automatic translation import
+
+   * packages/apps/FMRadio/
+f0d11a0 Automatic translation import
+
+   * packages/apps/LockClock/
+552041b Automatic translation import
+
+   * packages/apps/Messaging/
+b3fc116 Automatic translation import
+
+   * packages/apps/Profiles/
+5f9b3b1 Automatic translation import
+
+   * packages/apps/Stk/
+726621f Automatic translation import
+
+   * packages/apps/Terminal/
+b3167ed Automatic translation import
+
+   * packages/apps/ThemeChooser/
+3fa04c4 Automatic translation import
+
+   * packages/apps/TvSettings/
+86a5055 Automatic translation import
+
+   * packages/apps/UnifiedEmail/
+fdb59c7 Automatic translation import
+
+   * packages/inputmethods/LatinIME/
+e443900 Automatic translation import
+
+   * packages/providers/ContactsProvider/
+3151496 Automatic translation import
+
+   * packages/providers/DataUsageProvider/
+16bd17e Automatic translation import
+
+   * packages/providers/DownloadProvider/
+6b65be9 Automatic translation import
+
+   * packages/providers/ThemesProvider/
+b8d4369 Automatic translation import
+
+   * packages/providers/WeatherProvider/
+187ce37 Automatic translation import
+
+   * packages/services/CMAudioService/
+f9a30eb Automatic translation import
+
+   * packages/services/LiveLockScreenService/
+5d6b6ee Automatic translation import
+
+   * packages/services/Telecomm/
+99aef23 Automatic translation import
+
+   * packages/services/Telephony/
+85eeeb3 Automatic translation import
+
+   * packages/services/ThemeManagerService/
+2f285e8 Automatic translation import
+
+   * packages/services/WeatherService/
+3049526 Automatic translation import
+
