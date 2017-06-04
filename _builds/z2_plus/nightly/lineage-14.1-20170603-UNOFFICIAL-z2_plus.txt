@@ -1,0 +1,320 @@
+===================================
+Since Fri May 26 12:47:53 UTC 2017
+===================================
+
+
+   * device/zuk/z2_plus/
+e1e6401 [DO NOT CHERRY PICK] Add custom OTA URI
+57b88e3 Use sdclang for building
+ad15ff6 sepolicy: delete leftover rules for time_daemon
+
+   * external/stagefright-plugins/
+4089877 FFmpegExtractor: Don't use our extractor when we agree with StageFright
+
+   * frameworks/base/
+8a13912 Automatic translation import
+
+   * hardware/qcom/audio-caf/msm8916/
+ef3989b Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.18' into cm-14.1-caf-8916
+
+   * hardware/qcom/display-caf/msm8960/
+d222af7 hwc: return correct color format string while layer dump
+
+   * hardware/qcom/fm/
+10a0e49 Automatic translation import
+
+   * hardware/qcom/media-caf/msm8916/
+d781d8f Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.18' into cm-14.1-caf-8916
+
+   * lineage/cve/
+b0df1d5 cve_tracker: Fix back-link on kernel page
+
+   * lineage/jenkins/
+fca0179 Revert "Hero: pulling due to insecure adb"
+
+   * lineage/mirror/
+954e432 Updated to 02-Jun-2017 20:31:10 UTC
+
+   * lineage/scripts/
+a8794d6 maintainers: Check requirements for dd install method
+
+   * lineage/updater/
+73997b2 Fix .side-nav height
+
+   * lineage/website/
+501ab9d Changelog #10 - Sensitive numbers and our CVE Tracker
+
+   * lineage/wiki/
+3f5f2ea wiki: Fix maintainers in various LG devices
+
+   * packages/apps/AudioFX/
+a9e6e96 Automatic translation import
+
+   * packages/apps/Bluetooth/
+a1d4b44 Automatic translation import
+
+   * packages/apps/CMParts/
+1dbebd0 Automatic translation import
+
+   * packages/apps/CMUpdater/
+36cc1fb Automatic translation import
+
+   * packages/apps/Calendar/
+1716e53 Automatic translation import
+
+   * packages/apps/Camera2/
+1bd0645 Automatic translation import
+
+   * packages/apps/CellBroadcastReceiver/
+f8d149a Automatic translation import
+
+   * packages/apps/Contacts/
+9e7d66e Automatic translation import
+
+   * packages/apps/ContactsCommon/
+23fb9c9 Automatic translation import
+
+   * packages/apps/CustomTiles/
+bcc7ac9 Automatic translation import
+
+   * packages/apps/DeskClock/
+245a33d Automatic translation import
+
+   * packages/apps/Dialer/
+871e09b Automatic translation import
+
+   * packages/apps/Email/
+b76ada5 Fix check for deleted messages.
+
+   * packages/apps/EmergencyInfo/
+3ea2db7 Automatic translation import
+
+   * packages/apps/ExactCalculator/
+16e9688 Automatic translation import
+
+   * packages/apps/FMRadio/
+22979c0 Automatic translation import
+
+   * packages/apps/FlipFlap/
+ad0c195 FlipFlap: Hide cover view before removing
+
+   * packages/apps/Gallery2/
+97a397b Automatic translation import
+
+   * packages/apps/Jelly/
+153b7b7 Automatic translation import
+
+   * packages/apps/ManagedProvisioning/
+4b787a2 Automatic translation import
+
+   * packages/apps/Messaging/
+824d9d3 Automatic translation import
+
+   * packages/apps/PhoneCommon/
+bedcf82 Automatic translation import
+
+   * packages/apps/Recorder/
+8c0b44d Automatic translation import
+
+   * packages/apps/Settings/
+9d0198f Automatic translation import
+
+   * packages/apps/SetupWizard/
+0f16837 Automatic translation import
+
+   * packages/apps/Snap/
+d8c3f82 Automatic translation import
+
+   * packages/apps/Stk/
+f9f50a5 Do not display toast if alpha text is null.
+
+   * packages/apps/Tag/
+1dc7751 Automatic translation import
+
+   * packages/apps/Trebuchet/
+e4411d6 Automatic translation import
+
+   * packages/apps/TvSettings/
+8314f85 Automatic translation import
+
+   * packages/apps/UnifiedEmail/
+e353ae2 Properly close body InputStreams.
+
+   * packages/inputmethods/LatinIME/
+30c53af Automatic translation import
+
+   * packages/providers/WeatherProvider/
+7f81c53 Automatic translation import
+
+   * packages/resources/devicesettings/
+fe6b096 Automatic translation import
+
+   * packages/services/LiveLockScreenService/
+15d4966 Automatic translation import
+
+   * packages/services/Telecomm/
+65fe3b8 Automatic translation import
+
+   * packages/services/Telephony/
+5c6ea38 Automatic translation import
+
+   * vendor/cm/
+62741ba sensitive_pn: Add sensitive phone numbers for India
+
+   * vendor/cmsdk/
+f53bcaa Automatic translation import
+
+   * vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider/
+0b94297 Automatic translation import
+
+   * vendor/qcom/opensource/cryptfs_hw/
+da6e595 cryptfs_hw: Fix stack out of bound issue
+
+===================================
+Since Fri May 19 08:56:08 UTC 2017
+===================================
+
+
+   * android/
+a7fc9f8 Sync slackbot repo
+
+   * device/qcom/common/
+ebff3b2 power: use 8937 hal for 8953
+
+   * device/zuk/z2_plus/
+56e5274 z2_plus: Enable miracast
+fa702c5 Replace Qualcomm time daemon with sony timekeep
+198baf4 Enforce vendor tree presence
+
+   * lineage/ansible/
+e1ffe6a Add ftp.fau.de
+
+   * lineage/contributors-cloud-generator/
+5ce7272 Fix cause of Null Pointer
+
+   * lineage/slackbot/
+d29bbb1 add poll plugin
+
+   * lineage/stats/
+2844cb1 Revert "Include official count on main page"
+
+   * vendor/zuk/z2_plus/
+0b506fe Remove Qualcomm time daemon, we are using sony timekeep now
+
+===================================
+Since Sat May 13 16:06:33 UTC 2017
+===================================
+
+
+   * build/
+a47d7ee Revert "Revert "ota: Remove cruft we don't care about""
+
+   * device/zuk/z2_plus/
+cbf8962 audio: Import zui 2.5.075_170324 audio config
+3bb8844 z2_plus: update audio configurations
+ff1ffe6 Nuke Gello I guess
+
+   * frameworks/native/
+c68520a sensorservice: Fix orientation sensor for HAL's missing rotation vector sensor
+
+   * hardware/qcom/audio-caf/msm8996/
+6e8e9c5 Merge tag 'LA.UM.5.5.r1-04600-8x96.0' into HEAD
+
+   * hardware/qcom/display-caf/msm8996/
+332f57a Merge tag 'LA.UM.5.5.r1-04600-8x96.0' into HEAD
+
+   * hardware/qcom/media-caf/msm8996/
+87965a0 Merge tag 'LA.UM.5.5.r1-04600-8x96.0' into HEAD
+
+   * kernel/zuk/msm8996/
+2133b25 kernel: Only expose su when daemon is running
+
+   * packages/apps/CMBugReport/
+c5d0492 Automatic translation import
+
+   * packages/apps/Eleven/
+7c62b1d Automatic translation import
+
+   * packages/apps/LockClock/
+98a6964 Automatic translation import
+
+   * packages/apps/PackageInstaller/
+1b36092 Automatic translation import
+
+   * packages/apps/ThemeChooser/
+500c253 Automatic translation import
+
+   * system/keymaster/
+a1bbfc0 Fix bugs regarding KeyStore::isHardwareBacked always returning true.
+
+   * system/sepolicy/
+ec269cc Allow recovery to alter / on userdebug/eng builds
+
+   * vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
+359c449 Automatic translation import
+
+===================================
+Since Fri May  5 08:18:36 UTC 2017
+===================================
+
+
+   * device/zuk/z2_plus/
+b77499f values-pl: remove untranslated U-Touch label
+b121cc7 Added U-Touch translation: Polish
+
+   * external/chromium-webview/
+b544e48 Update README
+
+   * hardware/qcom/audio-caf/msm8937/
+99617f9 Configs: remove audio sink buffer size property
+
+   * hardware/qcom/display/
+03afd10 hwc2: Only set display_width and display_height when equal to zero
+
+   * hardware/qcom/display-caf/msm8937/
+b7a3010 display: Add color metadata definition
+
+   * hardware/qcom/media-caf/msm8937/
+de0c52e media: libOmxSw encoders require prop headers :(
+
+   * system/core/
+28cbdd1 Revert "init.rc: set initial cpuset to all cores"
+
+===================================
+Since Fri Apr 28 08:07:47 UTC 2017
+===================================
+
+
+   * art/
+8b0b730 runtime: arch: support kryo for 32 bit
+
+   * bionic/
+22d6b5b libc: ARM: Add 32-bit Kryo memcpy
+
+   * bootable/recovery/
+616bf9a recovery: Fix event system
+
+   * external/boringssl/
+8f156df Merge tag 'android-7.1.2_r8' into cm-14.1
+
+   * frameworks/av/
+faa8b85 seccomp: Fix policy for ffmpeg
+
+   * hardware/libhardware_legacy/
+ec33ac3 wifi: add firmware loader support for the non-LKM case
+
+   * hardware/qcom/media-caf/apq8084/
+b49f2c0 Fix duplicated OMX.qcom.audio.decoder.aac entry
+
+   * lineage/crowdin/
+e7d8cf6 config: cm-14.1: add Jelly, remove Browser
+
+   * system/bt/
+0ebf465 Do not include the trailing NULL from the C-String in the SDP service name
+
+   * system/extras/
+f30ae7f Use project pathmap for recovery
+
+   * system/extras/su/
+7344440 su: Don't start daemon for adb only mode
+
