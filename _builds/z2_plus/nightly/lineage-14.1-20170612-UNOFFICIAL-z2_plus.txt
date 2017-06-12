@@ -1,0 +1,289 @@
+===================================
+Since Sat Jun  3 20:31:05 UTC 2017
+===================================
+
+
+   * android/
+90d2205 manifest: android-7.1.2_r8 -> android-7.1.2_r17
+
+   * build/
+c3e7f17 Makefile: Add the missing dependency on FUTILITY.
+
+   * device/zuk/z2_plus/
+a5a554e [DO NOT CHERRY PICK] Add custom OTA URI
+
+   * external/chromium-webview/
+2909904 Update webviews
+
+   * external/stagefright-plugins/
+05bf4e7 ffmpeg-extractor: StageFright supports Opus files
+
+   * frameworks/base/
+99bf8fc SystemUI: allow user to dismiss a locked task by swiping it away manually
+
+   * frameworks/native/
+1eed077 Merge tag 'android-7.1.2_r17' into cm-14.1
+
+   * hardware/qcom/display-caf/msm8996/
+92fa2ea Merge tag 'LA.UM.5.5.r1-04700-8x96.0' into HEAD
+
+   * hardware/ti/omap4/
+1738329 omap4: Correct disabling of dirty regions invalidation
+
+   * libcore/
+b162f5e Merge tag 'android-7.1.2_r17' into cm-14.1
+
+   * lineage/contributors-cloud-generator/
+db271de Bump DEFAULT_SIZE to 1896
+
+   * lineage/cve/
+b537d10 Fix seeding of kernels
+
+   * lineage/jenkins/
+da39b16 hudson: Move maserati, spyder, targa and umts_spyder to 14.1
+
+   * lineage/scripts/
+5c432dc maintainers: Warn if device uses unofficial TWRP
+
+   * lineage/updater/
+8343855 changelog: show changes for device's active branch, not always cm-14.1
+
+   * lineage/website/
+da966d8 Remove # from post titles
+
+   * lineage/wiki/
+ce9cbb7 devices: Move maserati, spyder, targa and umts_spyder to 14.1
+
+   * packages/apps/AudioFX/
+6850778 AudioFX: Sign with platform key
+
+   * packages/apps/Bluetooth/
+9d274ac BluetoothOppTransferActivity: fix after ad46f6a52d7240ed1e2127c4263a5cbcf454df09
+
+   * packages/apps/Email/
+ea4eb75 Adjust Email UnitTests to e353ae2ea19c9ea800d10b37e05de7b0ea1aeeb4
+
+   * packages/apps/FlipFlap/
+99c45c1 FlipFlap: Circle/Rectangle View: Force layout to the follow BatteryViews
+
+   * packages/apps/Gallery2/
+93bcb4c Gallery2: support GIF animation
+
+   * packages/apps/Jelly/
+22cb565 Implement history management through a ContentProvider.
+
+   * packages/apps/Snap/
+78666b5 Snap: Simulate back button press when menu back button is pressed
+
+   * packages/apps/Terminal/
+5856a60 Terminal: Fix keyboard Ctrl- and ALT-key input.
+
+   * packages/apps/TvSettings/
+3ddceec Settings: Implement ADB over network
+
+   * packages/services/Telephony/
+6ba71dd VoicemailSettingsActivity: Fix some NPEs
+
+   * system/bt/
+aa31852 Merge tag 'android-7.1.2_r17' into cm-14.1
+
+   * system/core/
+5e54c5f libcutils: fix schedboost after 31f78ddf4ea2ab7963d873cb16db98e976346468
+
+   * vendor/cm/
+f5049a6 Add sensitive numbers for Israel.
+
+   * vendor/cmsdk/samples/weatherproviderservice/OpenWeatherMapProvider/
+3fe4133 Add back key to actionbar
+
+   * vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
+3e9b1c1 Don't fail when a translation is missing
+
+   * vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider/
+bf4c5a3 Don't fail when a translation is missing
+
+===================================
+Since Fri May 26 12:47:53 UTC 2017
+===================================
+
+
+   * device/zuk/z2_plus/
+57b88e3 Use sdclang for building
+
+   * hardware/qcom/audio-caf/msm8916/
+ef3989b Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.18' into cm-14.1-caf-8916
+
+   * hardware/qcom/display-caf/msm8960/
+d222af7 hwc: return correct color format string while layer dump
+
+   * hardware/qcom/fm/
+10a0e49 Automatic translation import
+
+   * hardware/qcom/media-caf/msm8916/
+d781d8f Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.18' into cm-14.1-caf-8916
+
+   * lineage/mirror/
+954e432 Updated to 02-Jun-2017 20:31:10 UTC
+
+   * packages/apps/CMParts/
+1dbebd0 Automatic translation import
+
+   * packages/apps/CMUpdater/
+36cc1fb Automatic translation import
+
+   * packages/apps/Calendar/
+1716e53 Automatic translation import
+
+   * packages/apps/Camera2/
+1bd0645 Automatic translation import
+
+   * packages/apps/CellBroadcastReceiver/
+f8d149a Automatic translation import
+
+   * packages/apps/Contacts/
+9e7d66e Automatic translation import
+
+   * packages/apps/ContactsCommon/
+23fb9c9 Automatic translation import
+
+   * packages/apps/CustomTiles/
+bcc7ac9 Automatic translation import
+
+   * packages/apps/DeskClock/
+245a33d Automatic translation import
+
+   * packages/apps/Dialer/
+871e09b Automatic translation import
+
+   * packages/apps/EmergencyInfo/
+3ea2db7 Automatic translation import
+
+   * packages/apps/ExactCalculator/
+16e9688 Automatic translation import
+
+   * packages/apps/FMRadio/
+22979c0 Automatic translation import
+
+   * packages/apps/ManagedProvisioning/
+4b787a2 Automatic translation import
+
+   * packages/apps/Messaging/
+824d9d3 Automatic translation import
+
+   * packages/apps/PhoneCommon/
+bedcf82 Automatic translation import
+
+   * packages/apps/Recorder/
+8c0b44d Automatic translation import
+
+   * packages/apps/Settings/
+9d0198f Automatic translation import
+
+   * packages/apps/SetupWizard/
+0f16837 Automatic translation import
+
+   * packages/apps/Stk/
+f9f50a5 Do not display toast if alpha text is null.
+
+   * packages/apps/Tag/
+1dc7751 Automatic translation import
+
+   * packages/apps/Trebuchet/
+e4411d6 Automatic translation import
+
+   * packages/apps/UnifiedEmail/
+e353ae2 Properly close body InputStreams.
+
+   * packages/inputmethods/LatinIME/
+30c53af Automatic translation import
+
+   * packages/providers/WeatherProvider/
+7f81c53 Automatic translation import
+
+   * packages/resources/devicesettings/
+fe6b096 Automatic translation import
+
+   * packages/services/LiveLockScreenService/
+15d4966 Automatic translation import
+
+   * packages/services/Telecomm/
+65fe3b8 Automatic translation import
+
+   * vendor/cmsdk/
+f53bcaa Automatic translation import
+
+   * vendor/qcom/opensource/cryptfs_hw/
+da6e595 cryptfs_hw: Fix stack out of bound issue
+
+===================================
+Since Fri May 19 08:56:08 UTC 2017
+===================================
+
+
+   * device/qcom/common/
+ebff3b2 power: use 8937 hal for 8953
+
+   * lineage/ansible/
+e1ffe6a Add ftp.fau.de
+
+   * lineage/slackbot/
+d29bbb1 add poll plugin
+
+   * lineage/stats/
+2844cb1 Revert "Include official count on main page"
+
+   * vendor/zuk/z2_plus/
+0b506fe Remove Qualcomm time daemon, we are using sony timekeep now
+
+===================================
+Since Sat May 13 16:06:33 UTC 2017
+===================================
+
+
+   * hardware/qcom/audio-caf/msm8996/
+6e8e9c5 Merge tag 'LA.UM.5.5.r1-04600-8x96.0' into HEAD
+
+   * hardware/qcom/media-caf/msm8996/
+87965a0 Merge tag 'LA.UM.5.5.r1-04600-8x96.0' into HEAD
+
+   * kernel/zuk/msm8996/
+2133b25 kernel: Only expose su when daemon is running
+
+   * packages/apps/CMBugReport/
+c5d0492 Automatic translation import
+
+   * packages/apps/Eleven/
+7c62b1d Automatic translation import
+
+   * packages/apps/LockClock/
+98a6964 Automatic translation import
+
+   * packages/apps/PackageInstaller/
+1b36092 Automatic translation import
+
+   * packages/apps/ThemeChooser/
+500c253 Automatic translation import
+
+   * system/keymaster/
+a1bbfc0 Fix bugs regarding KeyStore::isHardwareBacked always returning true.
+
+   * system/sepolicy/
+ec269cc Allow recovery to alter / on userdebug/eng builds
+
+===================================
+Since Fri May  5 08:18:36 UTC 2017
+===================================
+
+
+   * hardware/qcom/audio-caf/msm8937/
+99617f9 Configs: remove audio sink buffer size property
+
+   * hardware/qcom/display/
+03afd10 hwc2: Only set display_width and display_height when equal to zero
+
+   * hardware/qcom/display-caf/msm8937/
+b7a3010 display: Add color metadata definition
+
+   * hardware/qcom/media-caf/msm8937/
+de0c52e media: libOmxSw encoders require prop headers :(
+
